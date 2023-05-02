@@ -25,4 +25,9 @@ body {
     object-fit: cover;
   }
 
-  
+  #prezzoscarpa {
+    text-align: center;
+    align-items: center;
+    color: pink;
+
+  }
