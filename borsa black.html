@@ -32,7 +32,10 @@
               <a class="nav-link" href="chisiamo.html">Chi siamo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="prodotti.html">Prodotti</a>
+              <a class="nav-link" href="borse.html">Borse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="scarpe.html">Scarpe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="carrello.html">Carrello</a>
@@ -89,31 +92,12 @@
     </div>
   </main>
 
-  <footer class=" text-light py-3">
+  <footer class=" text-light py-2">
     <div class="container text-center">
       <p>&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
     </div>
   </footer>
-  <script>
-    function visualizzaTaglie() {
-      var taglie = document.getElementById("taglie");
-      var taglieup = document.getElementById("taglieup");
-      var tagliedown = document.getElementById("tagliedown");
-      if (taglie.style.display === "none") {
-        taglie.style.display = "block";
-        taglieup.style.display = "block";
-        tagliedown.style.display = "none";
-      } else {
-        taglie.style.display = "none";
-        taglieup.style.display = "none";
-        tagliedown.style.display = "block";
-      }
-    }
-    function cambiaTaglia() {
-      var taglia = document.getElementById("taglia");
-      taglia.value = event.target.innerHTML;
-    }
-  </script>
+  
   <!-- Collegamento ai file JavaScript di Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
