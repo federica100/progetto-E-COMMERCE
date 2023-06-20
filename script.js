@@ -12,17 +12,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-const imgElement = document.querySelector('.hover-image');
-const defaultSrc = imgElement.getAttribute('src');
-const hoverSrc = imgElement.getAttribute('data-hover-src');
 
-imgElement.addEventListener('mouseenter', () => {
-  imgElement.setAttribute('src', hoverSrc);
-});
-
-imgElement.addEventListener('mouseleave', () => {
-  imgElement.setAttribute('src', defaultSrc);
-});
+ 
 
 
 
@@ -50,4 +41,13 @@ function cambiaTaglia() {
 
 
 
+function accettaInformativa() {
+  var checkbox = document.getElementById('checkboxConsenso');
+  var messaggio = document.getElementById('messaggio');
 
+  if (checkbox.checked) {
+    messaggio.style.display = 'block';
+  } else {
+    messaggio.style.display = 'none';
+  }
+}
