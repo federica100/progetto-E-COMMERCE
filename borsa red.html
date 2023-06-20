@@ -49,76 +49,121 @@
     </nav>
   </header>
 
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="immagini/borsarossa.jpg" alt="Immagine di esempio" class="img-fluid">
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Stili personalizzati */
+    .bag-image {
+      max-width: 70%;
+      
+    
+      margin-top: 20px;
+      margin-left: 15%;
+      margin-right: 20%;
+
+    }
+  </style>
+</head>
+<body>
+ 
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Scegli il tuo colore preferito!</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="color">Colore:</label>
+        <select id="color" name="color" class="form-control">
+          <option value="rosso">Rosso</option>
+          <option value="blu">Blu</option>
+          <option value="verde">Verde</option>
+          <option value="viola">viola</option>
+          <!-- Aggiungi altre opzioni di colore qui -->
+        </select>
       </div>
-      <div class="col-md-6">
+
+      <br>
+
+      
+    </form>
+
+    <img src="immagini/borsarossa-min.jpg" class="bag-image" alt="Borsa">
+
+    <script>
+      function changeBagImage() {
+        var colorSelect = document.getElementById('color');
+        var selectedColor = colorSelect.value;
+        var bagImage = document.querySelector('.bag-image');
+
+        if (selectedColor === 'rosso') {
+          bagImage.src = 'immagini/borsarossa-min.jpg';
+        } else if (selectedColor === 'blu') {
+          bagImage.src = 'immagini/borsa carpisa/carpisablu.JPG';
+        } else if (selectedColor === 'verde') {
+          bagImage.src = 'immagini/borsa carpisa/carpisaverde.JPG';
+        } else if (selectedColor === 'viola') {
+          bagImage.src = 'immagini/borsa carpisa/carpisaviola.JPG';
+       
+        }
+      }
+
+      var colorSelect = document.getElementById('color');
+      colorSelect.addEventListener('change', changeBagImage);
+    </script>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 
+ 
+
+
+
+
+      <div class="container my-5" id="descrizioneborsa">
         <h1 class="mb-4">Borsa Red</h1>
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus nec ante sagittis
           ultrices vel vitae justo. Fusce at erat neque. Nunc ultrices risus sed sapien faucibus, a elementum nibh
           vestibulum. Sed ut metus nulla. Nulla in nisi in elit consectetur mollis. </p>
         <h2 class="mb-3">Prezzo: €39,90</h2>
+
+
+        
+      
         <form>
-          <div class="mb-3">
+          <div class="mb-3" id="quantitàborsa">
             <label for="quantita" class="form-label">Quantità:</label>
             <input type="number" class="form-control" id="quantita" min="1" value="1">
+            
           </div>
-          <div class="mb-3">
-            <label for="taglia" class="form-label">Colore:</label>
-            <!-- group -->
-            <div class="input-group">
-              <input type="text" class="form-control" id="taglia" placeholder="colore selezionato" readonly="readonly">
-              <i class="fas fa-chevron-down" onclick="visualizzaTaglie()" id="tagliedown"></i>
-              <i class="fas fa-chevron-up" onclick="visualizzaTaglie()" id="taglieup" style="display: none;"></i>
-            </div>
-            <div id="taglie" style="display: none;">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td onclick="cambiaColore()">verde</td>
-                    <td onclick="cambiaColore()">blu</td>
-                    <td onclick="cambiaColore()">rosa</td>
-                    <td onclick="cambiaColore()">viola</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div><input type="submit" value="Aggiungi al carrello" class="btn btn-primary btn-block">
+          </div>
+          
+          
             </div>
           </div>
-          <span class="btn btn-primary">Aggiungi al carrello</span>
+         
         </form>
       </div>
     </div>
   </main>
+  
+<!-- Collegamento ai file JavaScript di Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-  <footer class=" text-light py-2">
+
+  <footer class="text-light py-2">
     <div class="container text-center">
       <p>&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
     </div>
   </footer>
   <script>
-    function visualizzaTaglie() {
-      var taglie = document.getElementById("taglie");
-      var taglieup = document.getElementById("taglieup");
-      var tagliedown = document.getElementById("tagliedown");
-      if (taglie.style.display === "none") {
-        taglie.style.display = "block";
-        taglieup.style.display = "block";
-        tagliedown.style.display = "none";
-      } else {
-        taglie.style.display = "none";
-        taglieup.style.display = "none";
-        tagliedown.style.display = "block";
-      }
-    }
-    function cambiaTaglia() {
-      var taglia = document.getElementById("taglia");
-      taglia.value = event.target.innerHTML;
-    }
-  </script>
-  <!-- Collegamento ai file JavaScript di Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+   
+   
