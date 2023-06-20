@@ -24,9 +24,6 @@ body  {
 
   footer {
     background-color: deeppink;
-    
-    
-
   }
 
 
@@ -37,7 +34,7 @@ body  {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
   }
 
   h1 {
@@ -78,7 +75,7 @@ body  {
   .form-group textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 3px;
   
   }
@@ -89,7 +86,7 @@ body  {
   }
 
   .form-group button {
-    background-color: #4CAF50;
+    background-color: #ee00c6;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -175,5 +172,249 @@ color: magenta
   }
 
 
-
+  .mappa {
+    width: 100%;
+    height: 300px;
+  }
   
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: deeppink;
+  padding: 20px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#search-bar form {
+  display: flex;
+  max-width: 500px;
+}
+
+#search-bar input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-bar button {
+  padding: 10px 20px;
+  background-color: deeppink;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#products {
+  margin-top: 20px;
+}
+
+#bottonecarrello {
+  margin-bottom:  10%;
+  margin-top: 0%;
+  max-width: 70%;
+  margin-left: 14% ;
+  margin-right: 5% ;
+}
+
+#descrizioneborsa {
+  margin-bottom:  10%;
+  margin-top: 0%;
+  max-width: 80%;
+  margin-left: 10% ;
+  margin-right: 10%;
+}
+
+#coloriborsa {
+  margin-bottom:  10%;
+  margin-top: 0%;
+  max-width: 90%;
+  margin-left: 10% ;
+  margin-right: 10%;
+}
+
+
+#quantitàborsa {
+  margin-bottom:  10%;
+  margin-top: 0%;
+  max-width: 90%;
+  margin-left: 10% ;
+  margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+#consenso {
+  margin-top: 20px;
+}
+
+#consenso input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#consenso label {
+  font-weight: bold;
+}
+
+#consenso button {
+  display: block;
+  margin-top: 10px;
+}
+
+#messaggio {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0f2ff;
+  border: 1px solid #a8d3ff;
+  color: deeppink;
+}
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: deeppink;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-items {
+  margin: 20px;
+}
+
+.cart-items h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-items p {
+  font-style: italic;
+}
+
+.cart-total {
+  margin: 20px;
+  text-align: right;
+}
+
+.cart-total h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-total button {
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
