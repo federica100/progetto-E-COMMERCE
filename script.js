@@ -51,3 +51,23 @@ function accettaInformativa() {
     messaggio.style.display = 'none';
   }
 }
+
+
+
+$(document).ready(function() {
+  $('.quantita').on('input', function() {
+      calcolaTotale();
+  });
+});
+
+function calcolaTotale() {
+  var totale = 0;
+  
+  $('.quantita').each(function() {
+      var quantita = parseInt($(this).val());
+      var prezzo = parseInt($(this).parent().next().text().replace('$', ''));
+      totale += quantita * prezzo;
+  });
+
+  $('#totale').text('$' + totale);
+}
