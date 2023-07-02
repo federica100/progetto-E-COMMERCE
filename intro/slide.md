@@ -37,10 +37,8 @@ matteo@baccan.it – <https://www.baccan.it>
 ---
 
 ## Nuova Slide
-
+e-coomerce di accessori -Borse&Calzature
 test
 ---
 
-## e-coomerce di accessori -Borse&Calzature
-5
 
