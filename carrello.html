@@ -4,7 +4,7 @@
   <head>
     <!DOCTYPE html>
 
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
@@ -60,53 +60,57 @@
  
 </head>
 <body>
+
+  <div class="container">
+
     <h2 class="titolocarrello">Carrello</h2>
-    <table>
+    <table class="table">
+      <thead>
         <tr>
-            <th>Prodotto</th>
-            <th>Quantità</th>
-            <th>Prezzo unitario</th>
+          <th>Prodotto</th>
+          <th>Quantità</th>
+          <th>Prezzo unitario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Borsa elegante</td>
+          <td><input type="number" class="form-control quantita" min="0" max="100" value="0"></td>
+          <td>$50</td>
         </tr>
         <tr>
-            <td>Borsa elegante</td>
-            <td><input type="number" class="quantita" min="0" max="100" value="0"></td>
-            <td>$50</td>
+          <td>Borsa casual</td>
+          <td><input type="number" class="form-control quantita" min="0" max="100" value="0"></td>
+          <td>$40</td>
         </tr>
         <tr>
-            <td>Borsa casual</td>
-            <td><input type="number" class="quantita" min="0" max="100" value="0"></td>
-            <td>$40</td>
+          <td>Scarpe sportive</td>
+          <td><input type="number" class="form-control quantita" min="0" max="100" value="0"></td>
+          <td>$60</td>
         </tr>
         <tr>
-            <td>Scarpe sportive</td>
-            <td><input type="number" class="quantita" min="0" max="100" value="0"></td>
-            <td>$60</td>
+          <td colspan="2">Totale</td>
+          <td id="totale">$0</td>
         </tr>
-        <tr>
-            <td colspan="2">Totale</td>
-            <td id="totale">$0 </td>   
-            
-  
-
-        
-        </tr>
-
-        
-    
-     
+      </tbody>
     </table>
-<div> <button class="acquista"></buttonclass> ACQUISTA </button></div>
-</body>
-</div>
-</html>
 
-
-
-  <footer class="bg- text-light py-2">
-    <div class="container text-center">
-      <p>&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
+    <div class="text-center">
+      <button class="btn btn-primary acquista">ACQUISTA</button>
     </div>
-  </footer>
+
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+
+<footer class="bg- text-light py-2 fixed-bottom">
+  <div class="container text-center">
+    <p> &copy; 2023 BEFASHION - Tutti i diritti riservati </p>
+  </div>
+</footer>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -118,4 +122,4 @@
 </body>
 
 </html>
-</html>
+

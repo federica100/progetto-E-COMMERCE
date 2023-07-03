@@ -427,14 +427,13 @@ header {
 table {
   width: 100%;
   border-collapse: collapse;
-  padding-left: 30%;
-  margin-left: 5%;
+  padding-left: 5%;
   margin-right: 10%;
   margin-bottom: 6%;
 }
 
 th, td {
-  padding: 30px;
+  padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
  
@@ -457,6 +456,7 @@ border-radius: 20px;
 color: #ffffff;
 border-color: deeppink;
 background-color: deeppink;
+margin-bottom: 35%;
 
 
 
@@ -467,3 +467,4 @@ background-color: deeppink;
   margin-left: 10%;
 
 }
+
