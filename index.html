@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="style.css">
+
   
 </head>
 
@@ -52,20 +53,67 @@
     </nav>
   </header>
 
- 
-  <main>
-    <section id="search-bar" class="container">
-      <h2>Trova il tuo prodotto</h2>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Cerca per marca, modello, colore...">
-        <button class="btn btn-primary" type="submit">Cerca</button>
-      </form>
-    </section>
-  
-    <section id="products" class="container">
-  
-    </section>
-  </main>
+
+</head><main>
+  <section id="search-bar" class="container">
+    <h2>Trova il tuo prodotto</h2>
+    <form class="d-flex" id="search-form">
+      <input class="form-control me-2" type="text" placeholder="Cerca per marca, modello, colore..." id="search-input">
+      <button class="btn btn-primary" type="submit">Cerca</button>
+    </form>
+  </section>
+
+  <section id="products" class="container">
+
+  </section>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#search-form').on('submit', function(event) {
+      event.preventDefault();
+
+      var searchTerm = $('#search-input').val();
+
+      // Esegui la ricerca e visualizza i risultati
+      searchProducts(searchTerm);
+    });
+  });
+
+  function searchProducts(searchTerm) {
+    if (searchTerm.toLowerCase() === 'borse') {
+      // Visualizza la pagina delle borse
+      displayBorsePage();
+    } else if (searchTerm.toLowerCase() === 'scarpe') {
+      // Visualizza la pagina delle scarpe
+      displayScarpePage();
+    } else {
+      // Effettua la ricerca dei prodotti corrispondenti al termine di ricerca
+      // utilizzando la chiamata AJAX o l'approccio che preferisci
+      // ...
+      // ...
+      // displayProducts(products);
+    }
+  }
+
+  function displayBorsePage() {
+    // Crea il contenuto della pagina delle borse
+    var html = '<a href="borse.html">Scopri i nostri modelli di borse fashion</a>';
+
+    // Visualizza la pagina delle borse nella sezione "products"
+    $('#products').html(html);
+  }
+
+  function displayScarpePage() {
+    // Crea il contenuto della pagina delle scarpe
+    var html = '<a href="scarpe.html">Scopri la nostra collezione di scarpe trendy</a>';
+
+    // Visualizza la pagina delle scarpe nella sezione "products"
+    $('#products').html(html);
+  }
+</script>
+
   
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1400">

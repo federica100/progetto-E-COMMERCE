@@ -71,3 +71,12 @@ function calcolaTotale() {
 
   $('#totale').text('$' + totale);
 }
+
+
+
+
+
+
+
+
+ 
