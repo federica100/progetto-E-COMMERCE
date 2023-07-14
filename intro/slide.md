@@ -1,44 +1,19 @@
-
 ---
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
-marp: true
-footer: https://github.com/matteobaccan/CorsoWebDesign
----
-
-# Corso WebDesign
-
-Impariamo insieme come utilizzare HTML, CSS e Javascript
-
-
-
-<!-- _paginate: false -->
-<!-- _footer: "" -->
-<!-- style: "
-img[alt~='center'] {
-  display: block;
-  margin: 0 auto;
-}
-" -->
+backgroundImage: url( 'progetto-E-COMMERCE/intro/slide.md/sfondoslide.png')
 
 ---
 
-## Corso di Web Design
+# PROGETTO ESAME
+**Web Design 2 - Matteo Baccan**
+## E-commerce di Borse&Calzature
 
-Introduzione agli strumenti di sviluppo web
-_Lezione introduttiva del corso: conoscenza, obiettivi, primi argomenti.
-Parleremo di HTML, CSS, Javascript e di tecniche di sviluppo web_
+**Federica Ferrenti**
 
-matteo@baccan.it – <https://www.baccan.it>
+3° anno Graphic Design and Art Direction
 
----
+A.A 2022/2023 - ACME NOVARA
 
-## Nuova Slide
-e-coomerce di accessori -Borse&Calzature
-test
+
 ---
 
 
