@@ -1,12 +1,4 @@
----
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000')
-marp: true
-footer: https://github.com/matteobaccan/CorsoWebDesign
----
+
 
 
 ---
