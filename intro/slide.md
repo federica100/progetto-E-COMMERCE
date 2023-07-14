@@ -1,5 +1,9 @@
+
 ---
-backgroundImage: url( 'progetto-E-COMMERCE/intro/slide.md/sfondoslide.png')
+backgroundImage: url('sfondoslide.png')
+paginate: true
+marp: true
+
 
 ---
 
@@ -15,5 +19,36 @@ A.A 2022/2023 - ACME NOVARA
 
 
 ---
+Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
 
+il nome del sito web che ho realizzato è BE FASHION, UN E-COMMERCE DI ACCESSORI (Borse&scarpe)
 
+---
+STRUMENTI
+
+Gli strumenti per la programmazione del sito sono stati sono HTML, CSS e Javascript.
+
+ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo : http
+
+---
+
+BOOSTRAPH
+
+ho utilizzato boostraph 
+
+---
+
+CHAT GPT
+
+Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
+
+---
+
+LA CREAZIONE del sito web
+
+---
+
+STRUTTURA
+
+Il sito è composto da 5 psgine: 
+Home,
