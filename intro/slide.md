@@ -1,5 +1,5 @@
 ---
-backgroundImage: url('(sfondoslide.png)
+backgroundImage: url('sfondoslide.png')
 paginate: true
 marp: true
 
