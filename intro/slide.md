@@ -1,7 +1,12 @@
 ---
-backgroundImage: url(image.png)
+theme: default
+_class: lead
 paginate: true
+backgroundColor: #fff
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
+footer: https://github.com/matteobaccan/CorsoWebDesign
+---
 
 
 
@@ -20,7 +25,7 @@ A.A 2022/2023 - ACME NOVARA
 
 
 --- 
-![bg right 50% height: 1000px](linea.png)
+
 # e-commerce- Be Fashion
 
  Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
