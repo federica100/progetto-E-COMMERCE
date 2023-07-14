@@ -3,7 +3,7 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('[https://marp.app/assets/hero-background.svg](https://img.freepik.com/free-vector/hand-drawn-rainbow-background-design_23-2149574430.jpg?w=2000&t=st=1689370289~exp=1689370889~hmac=52a9aac9f2b56a346ccd223b4bbbc726e06ffefb87872fa0878801b8ae7960dd)')
 marp: true
 footer: https://github.com/matteobaccan/CorsoWebDesign
 ---
