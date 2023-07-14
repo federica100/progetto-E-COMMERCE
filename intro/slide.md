@@ -1,5 +1,5 @@
 ---
-backgroundImage: url('![Alt text](sfondoslide.png))
+backgroundImage: url('![Alt text](sfondoslide.png)
 paginate: true
 marp: true
 
