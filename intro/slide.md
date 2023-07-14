@@ -19,7 +19,7 @@ marp: true
 
 A.A 2022/2023 - ACME NOVARA
 
-![bg right 50% height: 200px](sfondo.png)
+![footer 50% height: 900px](sfondo.png)
 
 ---
 # e-commerce- Be Fashion
