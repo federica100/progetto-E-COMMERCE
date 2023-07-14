@@ -55,67 +55,57 @@
         <img src="immagini/cavallettodottor-min.jpg" alt="Immagine di esempio" class="img-fluid">
       </div>
       <div class="col-md-6">
-        <h1 class="mb-4">Scarpa Live Love Dream</h1>
+        <h1 class="mb-4">Scarpa Stivale</h1>
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus nec ante sagittis
           ultrices vel vitae justo. Fusce at erat neque. Nunc ultrices risus sed sapien faucibus, a elementum nibh
           vestibulum. Sed ut metus nulla. Nulla in nisi in elit consectetur mollis. </p>
-        <h2 class="mb-3">Prezzo: €39,90</h2>
-        <form>
-          <div class="mb-3">
-            <label for="quantita" class="form-label">Quantità:</label>
-            <input type="number" class="form-control" id="quantita" min="1" value="1">
-          </div>
-          <div class="mb-3">
-            <label for="taglia" class="form-label">Colore:</label>
-            <!-- group -->
-            <div class="input-group">
-              <input type="text" class="form-control" id="taglia" placeholder="taglia selezionata" readonly="readonly">
-              <i class="fas fa-chevron-down" onclick="visualizzaTaglie()" id="tagliedown"></i>
-              <i class="fas fa-chevron-up" onclick="visualizzaTaglie()" id="taglieup" style="display: none;"></i>
+        
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="quantity">Quantità:</label>
+                <input type="number" id="quantity" class="form-control" min="1" value="1">
+              </div>
+              <div class="col-lg-6">
+                <label for="size">Taglia:</label>
+                <select id="size" class="form-select">
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                </select>
+              </div>
             </div>
-            <div id="taglie" style="display: none;">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <td onclick="cambiaColore()">37</td>
-                    <td onclick="cambiaColore()">38</td>
-                    <td onclick="cambiaColore()">39</td>
-                    <td onclick="cambiaColore()">40</td>
-                  </tr>
-                </tbody>
-              </table>
+          
+               
+          <h2 class="mb-3">Prezzo: €39,90</h2>
+          <form>
+            <div class="text mt-4">
+              <a href="carrello.html"  class="btn btn-primary" id="bottonpink">Aggiungi al carrello</a>
             </div>
           </div>
-          <span class="btn btn-primary">Aggiungi al carrello</span>
+          
+        
+        
+          
+
+
+            </div>
+          </div>
+      
         </form>
       </div>
     </div>
   </main>
 
-  <footer class=" text-light py-2">
+  <footer class=" text-light py-1">
     <div class="container text-center">
       <p>&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
     </div>
   </footer>
-  <script>
-    function visualizzaTaglie() {
-      var taglie = document.getElementById("taglie");
-      var taglieup = document.getElementById("taglieup");
-      var tagliedown = document.getElementById("tagliedown");
-      if (taglie.style.display === "none") {
-        taglie.style.display = "block";
-        taglieup.style.display = "block";
-        tagliedown.style.display = "none";
-      } else {
-        taglie.style.display = "none";
-        taglieup.style.display = "none";
-        tagliedown.style.display = "block";
-      }
-    }
-    function cambiaTaglia() {
-      var taglia = document.getElementById("taglia");
-      taglia.value = event.target.innerHTML;
-    }
+  
+
   </script>
   <!-- Collegamento ai file JavaScript di Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
