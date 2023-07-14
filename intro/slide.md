@@ -1,12 +1,8 @@
 
----
-backgroundImage: url('sfondoslide.png')
-paginate: true
-marp: true
 
 
 ---
-
+![bg right 50% height: 200px](befashionlogo%20copia.png)
 # PROGETTO ESAME
 **Web Design 2 - Matteo Baccan**
 ## E-commerce di Borse&Calzature
@@ -19,7 +15,7 @@ A.A 2022/2023 - ACME NOVARA
 
 
 ---
-Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
+# Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
 
 il nome del sito web che ho realizzato è BE FASHION, UN E-COMMERCE DI ACCESSORI (Borse&scarpe)
 
