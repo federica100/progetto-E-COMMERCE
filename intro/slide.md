@@ -1,9 +1,6 @@
-
-theme: default
-_class: lead
+---
+backgroundImage: url('![Alt text](sfondoslide.png))
 paginate: true
-backgroundColor: #fff
-backgroundImage: url(')
 marp: true
 
 
@@ -19,7 +16,7 @@ marp: true
 
 A.A 2022/2023 - ACME NOVARA
 
-![footer 50% height: 900px](sfondo.png)
+
 
 ---
 # e-commerce- Be Fashion
