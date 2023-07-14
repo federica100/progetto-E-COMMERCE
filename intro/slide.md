@@ -1,7 +1,8 @@
 ---
-backgroundImage: url('sfondoslide.png')
+backgroundImage: url(image.png)
 paginate: true
 marp: true
+
 
 
 ---
@@ -18,7 +19,8 @@ A.A 2022/2023 - ACME NOVARA
 
 
 
----
+--- 
+![bg right 50% height: 1000px](linea.png)
 # e-commerce- Be Fashion
 
  Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
