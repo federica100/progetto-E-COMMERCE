@@ -108,26 +108,7 @@
 
   <!-- Collegamento ai file JavaScript di Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    function inviaMessaggio() {
-      var consensoCheckbox = document.getElementById("checkboxConsenso");
-      if (!consensoCheckbox.checked) {
-        alert("Devi accettare l'informativa sulla privacy per inviare il messaggio.");
-        return false;
-      }
-      // Resto del codice per l'invio del messaggio
-      // ...
-      // Se l'invio è completato con successo, mostrare il messaggio di ringraziamento
-      document.getElementById("consenso").style.display = "none";
-      document.getElementById("messaggio").style.display = "block";
-      return false;
-    }
-
-    function accettaInformativa() {
-      document.getElementById("consenso").style.display = "none";
-      document.getElementById("messaggio").style.display = "block";
-    }
-  </script>
+  
 </body>
 
 </html>

@@ -11,9 +11,14 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+
+
 function accettaCookie() {
   document.getElementById("cookie-popup").style.display = "none";
 }
+
+
+
 
 
 $(document).ready(function() {
@@ -26,6 +31,10 @@ $(document).ready(function() {
     searchProducts(searchTerm);
   });
 });
+
+
+
+
 
 function searchProducts(searchTerm) {
   if (searchTerm.toLowerCase() === 'borse') {
@@ -43,13 +52,25 @@ function searchProducts(searchTerm) {
   }
 }
 
+
+
+
+
+
+var colorSelect = document.getElementById('color');
+colorSelect.addEventListener('change', changeBagImage);
 function displayBorsePage() {
+
+
   // Crea il contenuto della pagina delle borse
   var html = '<a href="borse.html">Scopri i nostri modelli di borse fashion</a>';
 
   // Visualizza la pagina delle borse nella sezione "products"
   $('#products').html(html);
 }
+
+
+
 
 function displayScarpePage() {
   // Crea il contenuto della pagina delle scarpe
@@ -102,10 +123,33 @@ function accettaInformativa() {
 
 
 
+function inviaMessaggio() {
+      var consensoCheckbox = document.getElementById("checkboxConsenso");
+      if (!consensoCheckbox.checked) {
+        alert("Devi accettare l'informativa sulla privacy per inviare il messaggio.");
+        return false;
+      }
+      // Resto del codice per l'invio del messaggio
+      // ...
+      // Se l'invio è completato con successo, mostrare il messaggio di ringraziamento
+      document.getElementById("consenso").style.display = "none";
+      document.getElementById("messaggio").style.display = "block";
+      return false;
+    }
+
+    function accettaInformativa() {
+      document.getElementById("consenso").style.display = "none";
+      document.getElementById("messaggio").style.display = "block";
+    }
 
 
 
 
 
+    var colorSelect = document.getElementById('color');
+    colorSelect.addEventListener('change', changeBagImage);
 
- 
+
+
+
+
