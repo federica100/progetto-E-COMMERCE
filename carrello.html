@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="it">
 
 <head>
@@ -20,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="immagini/befashionlogo.png" alt="logo"></a>
-          
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,14 +50,7 @@
     </nav>
   </header>
 
-<div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- 
-</head>
-<body>
-
   <div class="container">
-
     <h2 class="titolocarrello">Carrello</h2>
     <table class="table">
       <thead>
@@ -85,45 +77,49 @@
           <td>€50</td>
         </tr>
         <tr>
-          <td colspan="2">Totale</td> 
-
-          <td id="totale">€40       <div class="text-center"> 
-            <form>
-              <div class="text mt-4">
-                <a href=""  class="btn btn-primary" id="bottonpink">ACQUISTA</a>
-              </div>
-            </div>
-         
-
-          </div> 
-        </td>  
+          <td colspan="2">Totale</td>
+          <td id="totale">€0</td>
         </tr>
-      </tbody> 
+      </tbody>
     </table>
-
-    <div></div> 
+    <div class="text-center">
+      <button class="btn btn-primary" id="bottonpink">ACQUISTA</button>
     </div>
-
   </div>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body>
-
-<footer class="bg- text-light py-1">
-  <div class="container text-center">
-    <p> &copy; 2023 BEFASHION - Tutti i diritti riservati </p>
-  </div>
-</footer>
+  <footer class="bg- text-light py-1">
+    <div class="container text-center">
+      <p> &copy; 2023 BEFASHION - Tutti i diritti riservati </p>
+    </div>
+  </footer>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-  <script src="script.js"></script>
-
   <!-- Collegamento ai file JavaScript di Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.quantita').on('input', function() {
+        calcolaTotale();
+      });
+
+      function calcolaTotale() {
+        var totale = 0;
+
+        $('.quantita').each(function() {
+          var quantita = parseInt($(this).val());
+          var prezzo = parseInt($(this).closest('tr').find('td:last').text().replace('€', ''));
+          totale += quantita * prezzo;
+        });
+
+        $('#totale').text('€' + totale);
+      }
+    });
+  </script>
 </body>
 
 </html>
-

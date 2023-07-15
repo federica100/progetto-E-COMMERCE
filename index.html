@@ -52,14 +52,27 @@
       </div>
     </nav>
   </header>
-
-
 </head>
-<main>
-  <section id="search-bar" class="container">
-    <h2>Trova il tuo prodotto</h2>
+
+<section id="products" class="container">
+
+</section>
+
+
+<div id="cookie-popup">
+  <div class="cookie-alert alert alert-dismissible fade show text-center" role="alert">
+    Questo sito utilizza i cookie per garantire la migliore esperienza di navigazione. Cliccando su "Accetta" acconsenti all'utilizzo dei cookie. Per maggiori informazioni, consulta la nostra <a href="privacy.html">Informativa sulla privacy</a>.
+    <button id="cookie-accept-btn" class="btn btn-primary btn-sm" onclick="accettaCookie()">Accetta</button>
+  </div>
+</div>
+
+
+
+
+ <section id="search-bar" class="container">
+    <h2>Cerca il tuo prodotto alla moda!</h2>
     <form class="d-flex" id="search-form">
-      <input class="form-control me-2" type="text" placeholder="Cerca per categoria..." id="search-input">
+      <input class="form-control me-3" type="text" placeholder="Cerca per categoria..." id="search-input">
       <button class="btn btn-primary" type="submit">Cerca</button>
     </form>
   </section>
@@ -71,48 +84,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  $(document).ready(function() {
-    $('#search-form').on('submit', function(event) {
-      event.preventDefault();
-
-      var searchTerm = $('#search-input').val();
-
-      // Esegui la ricerca e visualizza i risultati
-      searchProducts(searchTerm);
-    });
-  });
-
-  function searchProducts(searchTerm) {
-    if (searchTerm.toLowerCase() === 'borse') {
-      // Visualizza la pagina delle borse
-      displayBorsePage();
-    } else if (searchTerm.toLowerCase() === 'scarpe') {
-      // Visualizza la pagina delle scarpe
-      displayScarpePage();
-    } else {
-      // Effettua la ricerca dei prodotti corrispondenti al termine di ricerca
-      // utilizzando la chiamata AJAX o l'approccio che preferisci
-      // ...
-      // ...
-      // displayProducts(products);
-    }
-  }
-
-  function displayBorsePage() {
-    // Crea il contenuto della pagina delle borse
-    var html = '<a href="borse.html">Scopri i nostri modelli di borse fashion</a>';
-
-    // Visualizza la pagina delle borse nella sezione "products"
-    $('#products').html(html);
-  }
-
-  function displayScarpePage() {
-    // Crea il contenuto della pagina delle scarpe
-    var html = '<a href="scarpe.html">Scopri la nostra collezione di scarpe trendy</a>';
-
-    // Visualizza la pagina delle scarpe nella sezione "products"
-    $('#products').html(html);
-  }
+  
 </script>
 
   
@@ -147,20 +119,17 @@
   
 
 
- <main class="container my-3">
+ <main class="container my-2">
     <div class="row">
       <div class="col-md-6">
 
       </div>
       <div class="col-md-12">
-        <h2> BE FASHION , BE YOURSELF</h2>
-        <p>BEFASHION è il primo brand di accessori che rispecchia in pieno il vostro stile: audace, eccentrico e innovatico è capace di rappresentare al meglio la vostra personalità. </p>
-        <p>Siamo qui per ispirarti a essere audaci, a esplorare nuovi stili e a definire il tuo look unico. 'Be Fashion' è un richiamo per abbracciare la moda come un modo per esprimere la tua individualità, la tua creatività e il tuo spirito di moda. </p>
-        <p>Scegliere 'Be Fashion' significa scegliere un marchio che comprende e celebra la tua passione per la moda. Siamo qui per guidarti nel tuo percorso di stile, offrendoti le ultime tendenze e le opzioni più alla moda per completare il tuo guardaroba.
-
-Grazie per aver scelto Be Fashion come la tua destinazione di shopping online per borse e scarpe. Unisciti a noi e abbraccia il tuo spirito di moda. Sii audace, sii creativo, sii te stesso - Be Fashion!"</p>
-
-
+        <h1> BE FASHION , BE YOURSELF</h1>
+        <p><strong>BEFASHION</strong> è il primo brand di accessori che rispecchia in pieno il vostro stile: <em>audace</em>, <strong>eccentrico</strong> e <strong>innovativo</strong>, è capace di rappresentare al meglio la vostra personalità.</p>
+<p>Siamo qui per ispirarti a essere <em>audaci</em>, a esplorare nuovi stili e a definire il tuo look unico. '<strong>Be Fashion</strong>' è un richiamo per abbracciare la moda come un modo per esprimere la tua individualità, la tua creatività e il tuo spirito di moda.</p>
+<p>Scegliere '<strong>Be Fashion</strong>' significa scegliere un marchio che comprende e celebra la tua passione per la moda. Siamo qui per guidarti nel tuo percorso di stile, offrendoti le ultime tendenze e le opzioni più alla moda per completare il tuo guardaroba.</p>
+<p>Grazie per aver scelto <strong>Be Fashion</strong> come la tua destinazione di shopping online per borse e scarpe. Unisciti a noi e abbraccia il tuo spirito di moda. Sii <em>audace</em>, sii <em>creativo</em>, sii te stesso - <strong>Be Fashion</strong>!"</p>
 
 
        
@@ -170,11 +139,14 @@ Grazie per aver scelto Be Fashion come la tua destinazione di shopping online pe
 
  
 
-  <footer class="text-light py-1">
+
+<footer id="myFooter" class="text-light py-1">
     <div class="container text-center">
-      <p>&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
+        <p id="footer-text">&copy; 2023 BEFASHION - Tutti i diritti riservati</p>
     </div>
-  </footer>
+</footer>
+
+
 
     <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

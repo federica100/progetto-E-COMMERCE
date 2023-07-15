@@ -11,9 +11,54 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+function accettaCookie() {
+  document.getElementById("cookie-popup").style.display = "none";
+}
 
 
- 
+$(document).ready(function() {
+  $('#search-form').on('submit', function(event) {
+    event.preventDefault();
+
+    var searchTerm = $('#search-input').val();
+
+    // Esegui la ricerca e visualizza i risultati
+    searchProducts(searchTerm);
+  });
+});
+
+function searchProducts(searchTerm) {
+  if (searchTerm.toLowerCase() === 'borse') {
+    // Visualizza la pagina delle borse
+    displayBorsePage();
+  } else if (searchTerm.toLowerCase() === 'scarpe') {
+    // Visualizza la pagina delle scarpe
+    displayScarpePage();
+  } else {
+    // Effettua la ricerca dei prodotti corrispondenti al termine di ricerca
+    // utilizzando la chiamata AJAX o l'approccio che preferisci
+    // ...
+    // ...
+    // displayProducts(products);
+  }
+}
+
+function displayBorsePage() {
+  // Crea il contenuto della pagina delle borse
+  var html = '<a href="borse.html">Scopri i nostri modelli di borse fashion</a>';
+
+  // Visualizza la pagina delle borse nella sezione "products"
+  $('#products').html(html);
+}
+
+function displayScarpePage() {
+  // Crea il contenuto della pagina delle scarpe
+  var html = '<a href="scarpe.html">Scopri la nostra collezione di scarpe trendy</a>';
+
+  // Visualizza la pagina delle scarpe nella sezione "products"
+  $('#products').html(html);
+}
+
 
 
 
@@ -54,23 +99,7 @@ function accettaInformativa() {
 
 
 
-$(document).ready(function() {
-  $('.quantita').on('input', function() {
-      calcolaTotale();
-  });
-});
 
-function calcolaTotale() {
-  var totale = 0;
-  
-  $('.quantita').each(function() {
-      var quantita = parseInt($(this).val());
-      var prezzo = parseInt($(this).parent().next().text().replace('$', ''));
-      totale += quantita * prezzo;
-  });
-
-  $('#totale').text('$' + totale);
-}
 
 
 
