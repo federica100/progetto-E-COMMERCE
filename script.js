@@ -11,16 +11,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-
-
-function accettaCookie() {
-  document.getElementById("cookie-popup").style.display = "none";
-}
-
-
-
-
-
 $(document).ready(function() {
   $('#search-form').on('submit', function(event) {
     event.preventDefault();
@@ -31,6 +21,12 @@ $(document).ready(function() {
     searchProducts(searchTerm);
   });
 });
+
+
+function accettaCookie() {
+  document.getElementById("cookie-popup").style.display = "none";
+}
+
 
 
 
