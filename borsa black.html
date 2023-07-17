@@ -76,7 +76,7 @@
       <div class="form-group">
         <label for="color">Colore:</label>
         <select id="color" name="color" class="form-control">
-          <option value="rosso">nero</option>
+          <option value="nero">nero</option>
           <option value="blu">blu</option>
           <option value="verde">verde</option>
           <option value="Rosso">rosso</option>
@@ -97,10 +97,12 @@
         var selectedColor = colorSelect.value;
         var bagImage = document.querySelector('.bag-image');
 
-        if (selectedColor === 'Nero') {
+        if (selectedColor === 'nero') {
           bagImage.src = 'immagini/borsacatalogo-min.jpg';
         } else if (selectedColor === 'blu') {
-          bagImage.src = 'immagini/borsacatalogo/berskablu.JPG';
+          bagImage.src = 'immagini/borsacatalogo/bershkablu.JPG';
+        } else if (selectedColor === 'nero') {
+          bagImage.src = 'immagini/borsacatalogo-min.jpg';
         } else if (selectedColor === 'verde') {
           bagImage.src = 'immagini/borsacatalogo/bershkaverde.JPG';
         } else if (selectedColor === 'Rosso') {
@@ -124,7 +126,7 @@
 
 
       <div class="container my-5" id="descrizioneborsa">
-        <h1 class="mb-4">Borsa Red</h1>
+        <h1 class="mb-4">Borsa Flap</h1>
         <p class="mb-4">Entra nella cerchia dell'eleganza sofisticata con la nostra borsa elegante con catena dorata. Questo capolavoro di stile è progettato per donarti un look impeccabile e conferirti un tocco di lusso in ogni occasione.
 
           Realizzata con materiali di alta qualità, questa borsa è un connubio perfetto tra design raffinato e funzionalità pratica.</p> <p>Il suo corpo principale è realizzato in una morbida pelle sintetica che garantisce una sensazione di lusso al tatto, mentre i dettagli in metallo dorato le conferiscono un'eleganza senza tempo.
