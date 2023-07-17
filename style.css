@@ -203,6 +203,15 @@ position: center;
     border-color: deeppink;
   }
 
+  .bag-image {
+    max-width: 70%;
+    
+  
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 20%;
+
+  }
 
   .mappa {
     width: 100%;
