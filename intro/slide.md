@@ -40,20 +40,27 @@ Gli strumenti per la programmazione del sito sono stati sono HTML, CSS e Javascr
 ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
 
 ---
+# SUPPORTI
 
-# BOOSTRAPH
+Visual studio code è visual studio code, github e netlify
 
-ho utilizzato boostraph 
+
+---
+##  VISUAL STUDIO CODE
+
+Visual studio code è con github e netlify
+
+
 
 ---
 
-# CHAT GPT
+# CHAT GPT AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
 
 ---
 
-# LA CREAZIONE del sito web
+# LA CREAZIONE DEL SITO WEB
 
 ---
 
@@ -66,21 +73,108 @@ Tutte le pagine sono dootate di una struttura base : nav bar con logo e footer.
 
 ---
 
-# HOME
+## HOME
 
-nella home è presente una nav bar che permette all'utente di andare alla pagina desiderata
+nella home è presente una nav bar che permette all'utente di andare alla pagina desiderata, come in tutte le pagine.
 
-nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse
+nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
 ---
-# CHISIAMO
 
-nella pagina del chisiamo ho inserito una descrizione dell'azienda proprietaria dell'e-commerce.
+# cookie
+
+All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
+
+---
+# carosello
+
+All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
+
+---
+
+# barra di ricerca
 
 
 
+---
+
+# presentazione
 
 
+---
+## CHI SIAMO
 
+
+---
+
+## BORSE
+
+
+---
+# PAGINA DETTAGLIO PRODOTTO
+
+
+---
+
+# CAMBIO COLORE
+
+
+---
+## SCARPE
+
+
+---
+# PAGINA DETTAGLIO PRODOTTO
+
+
+---
+
+# CAMBIO TAGLIA
+
+
+---
+## CARRELLO
+
+
+---
+# calcolo totale
+
+
+---
+## CONTATTI
+
+
+---
+# MODULO INVIO DOMANDA
+
+
+---
+
+# privacy
+
+
+---
+
+## MAPPA
+
+
+---
+
+## RESPONSIVE
+
+
+---
+## VALIDATOR
+
+
+---
+# PAGESPEED Insight
+
+
+---
+# WC3 Validator
+
+
+---
