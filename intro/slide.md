@@ -48,7 +48,7 @@ Visual studio code è visual studio code, github e netlify
 ---
 ##  VISUAL STUDIO CODE
 
-Visual studio code è con github e netlify
+Visual studio code è con github e net![bg right 60% height: 30px](visualstudiocode.png)
 
 
 
@@ -57,7 +57,7 @@ Visual studio code è con github e netlify
 # CHAT GPT AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
-![bg right 10% height: 20px](screen/chatgpt.png)
+![bg right 60% height: 20px](screen/chatgpt.png)
 ---
 
 # LA CREAZIONE DEL SITO WEB
@@ -87,8 +87,18 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
 
+
+
+
+---
+# codice
+
 html
 ![widht: 750px](screen/cookiehtml.png)
+
+js
+
+
 
 ---
 # carosello
@@ -98,12 +108,29 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 html 
 ![widht: 750px](screen/carosellohtml.png)
 
+
+---
+# codice
+
+html
+
+
+js
+
 ---
 
 # barra di ricerca
 
+
+
+---
+
+# codice
+
 html
 ![widht: 750px](screen/barradiricercahtm.png)
+
+js
 
 ---
 
@@ -112,15 +139,16 @@ html
 
 ---
 ## CHI SIAMO
-
+nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
 
 ---
 
 ## BORSE
-
+all'interno della pagina dei prodotti, ho inserito tre tipologie di borse diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
 
 ---
 # PAGINA DETTAGLIO PRODOTTO
+
 
 
 ---
