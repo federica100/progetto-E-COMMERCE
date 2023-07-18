@@ -57,7 +57,7 @@ Visual studio code è con github e netlify
 # CHAT GPT AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
-
+![bg right 10% height: 20px](screen/chatgpt.png)
 ---
 
 # LA CREAZIONE DEL SITO WEB
@@ -87,16 +87,23 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
 
+html
+![widht: 750px](screen/cookiehtml.png)
+
 ---
 # carosello
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
+html 
+![widht: 750px](screen/carosellohtml.png)
+
 ---
 
 # barra di ricerca
 
-
+html
+![widht: 750px](screen/barradiricercahtm.png)
 
 ---
 
