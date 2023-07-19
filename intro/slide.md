@@ -146,8 +146,11 @@ screen
 
 la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
 
-screen
+![bg right 50% height: 400px](screeniphone/barradiricerca.png)
 
+---
+
+![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
 
 ---
 
