@@ -56,7 +56,11 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 # Chat Gpt AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
+
+
 ![bg right 60% height: 900px](screen/chatgpt.png)
+
+
 
 ---
 
@@ -172,12 +176,19 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di borse divers
 # Pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
+<<<<<<< HEAD
 
 ![widht: 1000px](screeniphone/coloritelefono.png)
 ![widht: 1000px](screeniphone/coloreblutelefono.png)
 
 --- 
 
+=======
+![widht: 700px](screeniphone/coloritelefono.png)
+![widht: 700px](screeniphone/coloreblutelefono.png)
+
+---
+>>>>>>> ab52122b21469b7d8f75fbd17c4c0e1aaf105dfc
 
 
 # cambio colore html
