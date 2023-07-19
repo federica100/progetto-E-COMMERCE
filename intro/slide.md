@@ -10,7 +10,7 @@ footer: https://github.com/federica100/progetto-E-COMMERCE
 
 
 
-![bg right 50% height: 150px](befashiongrande.png)
+![bg right 50% height: 250px](befashiongrande.png)
 # PROGETTO ESAME
 **Web Design 2 - Matteo Baccan**
 ## E-commerce di Borse&Calzature
