@@ -235,7 +235,7 @@ Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il 
 
 # Mappa
 Ho inserito la mappa presa da googleMaps
-![widht: 750px](screen/mappahtml.png)
+![widht: 750px]()
 
 ---
 
@@ -247,6 +247,13 @@ Ho inserito la mappa presa da googleMaps
 
 # RESPONSIVE
 screen
+![widht: 750px](desktop.png)
+
+---
+
+# RESPONSIVE
+screen
+![widht: 750px](ipadpro.png)
 
 ---
 # VALIDATOR
