@@ -125,7 +125,7 @@ js
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
 html 
-![widht: 750px](screen/carosellohtml.png)
+![widht: 750px]()
 
 
 ---
@@ -147,7 +147,7 @@ js
 # Codice
 
 html
-![widht: 750px](screen/barradiricercahtm.png)
+![widht: 750px](screen/barradiricercahtmL.png)
 
 js
 
@@ -180,7 +180,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 # cambio colore js
 
-![widht: 400px](screen/cambiocolorejs.png)
+![widht: 400px]()
 
 ---
 # SCARPE
@@ -199,7 +199,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 # Cambio taglia js
 
-![widht: 400px](screen/cambiocolorejs.png)
+![widht: 400px]()
 
 ---
 # CARRELLO
@@ -239,7 +239,10 @@ Ho inserito la mappa presa da googleMaps
 
 ---
 
+# QRCODE
+![widht: 400px](qrcode.png)
 
+---
 
 
 # RESPONSIVE
