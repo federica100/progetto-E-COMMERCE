@@ -51,8 +51,6 @@ function displayBorsePage() {
 }
 
 
-
-
 function displayScarpePage() {
   // Crea il contenuto della pagina delle scarpe
   var html = '<a href="scarpe.html">Scopri la nostra collezione di scarpe trendy</a>';
@@ -121,9 +119,6 @@ function inviaMessaggio() {
 
 
 
-
-    var colorSelect = document.getElementById('color');
-    colorSelect.addEventListener('change', changeBagImage);
 
 
 

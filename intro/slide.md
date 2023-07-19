@@ -34,7 +34,7 @@ il nome del sito web che ho realizzato è BE FASHION, UN E-COMMERCE DI ACCESSORI
 ---
 # STRUMENTI
 
-Gli strumenti per la programmazione del sito sono stati sono HTML, CSS e Javascript.
+i file per la programmazione del sito sono stati sono HTML, CSS e Javascript.
 
 ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
 
@@ -104,7 +104,8 @@ nella home è presente una nav bar che permette all'utente di andare alla pagina
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
-![bg right 50% height: 400px]()
+
+![bg right 50% height: 400px]() inserire screen 
 
 
 ---
@@ -130,22 +131,19 @@ html
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
-![bg right 50% height: 800px](screeniphone/hometelefono.png)
+html
+![bg right 50% height: 800px](screen/carosello.png)
 
----
-# codice
-html 
-![widht: 750px]()
+screen
 
-
----
-# codice
-js
 
 ---
 
 # Barra di ricerca
 
+la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
+
+screen
 
 
 ---
@@ -153,13 +151,13 @@ js
 # Codice
 
 html
-![widht: 750px](screen/barradiricercahtml.png)
+
 
 ---
 
 # Codice
 
-html
+
 js
 
 
@@ -179,13 +177,16 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di borse divers
 # Pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
-<<<<<<< HEAD
 
-![widht: 1000px](screeniphone/coloritelefono.png)
-![widht: 1000px](screeniphone/coloreblutelefono.png)
 
---- 
+![widht: 500px](screeniphone/coloritelefono.png)
 
+---
+
+
+![widht: 500px](screeniphone/coloreblutelefono.png)
+
+---
 
 # cambio colore html
 
@@ -194,7 +195,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 # cambio colore js
 
-![widht: 400px]()
+![widht: 400px](screen/cambiocolorejs.png)
 
 ---
 # SCARPE
@@ -221,8 +222,10 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 # CARRELLO
 Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
 
+![widht: 500px](screeniphone/carrelloetelefono.png)
 
 ---
+
 # Calcolo totale - jquery
 ![widht: 550px](screen/calcolototalejs.png)
 
@@ -234,9 +237,13 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 # CONTATTI
 Nella pagina dei contatti ho inserito le informazioni per contattare il negozio: posizione, telefono, mail.
 
+![widht: 500px](screeniphone/contatti.png)
+
 ---
 # Modulo invio domanda
 all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
+
+![widht: 750px](screeniphone/boxdomandatelefono.png)
 
 ---
 # Modulo invio domanda
@@ -247,6 +254,12 @@ all'interno della pagina contatti ho anche inserito un modulo che permette all'u
 # Privacy
 
 Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
+
+![widht: 750px](screeniphone/grazietelefono.png)
+
+---
+
+
 ![widht: 750px](screen/selezionecasellajs.png)
 
 ---
@@ -254,7 +267,7 @@ Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il 
 # Mappa
 
 Ho inserito la mappa presa da googleMaps
-![widht: 750px]()
+![widht: 750px](screen/mappa.png)
 
 ---
 
