@@ -5,7 +5,7 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
-footer: https://github.com/matteobaccan/CorsoWebDesign
+footer: https://github.com/federica100/progetto-E-COMMERCE
 ---
 
 
@@ -148,7 +148,9 @@ js
 ## JQUERY
 
 Cos'è jQuery e a cosa serve
-jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  ![bg right 60% height: 30px](JQuery-Logo.svg.png)
+jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  
+
+![bg right 60% height: 30px](JQuery-Logo.svg.png)
 
 
 ---
@@ -222,18 +224,23 @@ Nella pagina dei contatti ho inserito le informazioni per contattare il negozio:
 all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
 ---
+# MODULO INVIO DOMANDA
 
-# privacy
-Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
 
 ---
 
+# privacy
+Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
+![widht: 750px](screen/selezionecasellajs.png)
+---
+
 # MAPPA
+Ho inserito la mappa presa da googleMaps
 ![widht: 750px](screen/mappahtml.png)
 
 ---
 ## PRIVACY
-
+screen
 
 ---
 
@@ -241,18 +248,18 @@ Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il 
 
 
 ## RESPONSIVE
-
+screen
 
 ---
 ## VALIDATOR
-
+screen
 
 ---
 # PAGESPEED Insight
-
+screen
 
 ---
 # WC3 Validator
-
+screen
 
 ---

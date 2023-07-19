@@ -88,6 +88,8 @@ function cambiaTaglia() {
 
 
 
+
+
 function accettaInformativa() {
   var checkbox = document.getElementById('checkboxConsenso');
   var messaggio = document.getElementById('messaggio');
@@ -98,10 +100,6 @@ function accettaInformativa() {
     messaggio.style.display = 'none';
   }
 }
-
-
-
-
 
 
 function inviaMessaggio() {
@@ -118,10 +116,7 @@ function inviaMessaggio() {
       return false;
     }
 
-    function accettaInformativa() {
-      document.getElementById("consenso").style.display = "none";
-      document.getElementById("messaggio").style.display = "block";
-    }
+ 
 
 
 
