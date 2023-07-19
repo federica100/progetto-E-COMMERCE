@@ -55,7 +55,7 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 
 # Chat Gpt AI
 
-Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
+Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici.
 
 
 "mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
