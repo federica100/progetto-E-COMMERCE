@@ -70,9 +70,7 @@ Descrizione della borsa di media grandezza con più reparti interni, catena dora
 
 # Boostraph
 Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicazioni per il Web. Contienemodelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
-Divide lo spazio in terzi : 12 colonne. Quando lospazio è small, deve occupare 12 colonne, quandoè medio 4, quando è
-grande, 4.
-Ci consente direndere una pagina responsive
+Divide lo spazio in terzi : 12 colonne.
 
 
 ---
