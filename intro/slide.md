@@ -133,6 +133,10 @@ html
 js
 
 ---
+## JQUERY
+
+
+---
 
 # presentazione
 
@@ -148,26 +152,38 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di borse divers
 
 ---
 # PAGINA DETTAGLIO PRODOTTO
-
+in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
 
 ---
 
-# CAMBIO COLORE
+# CAMBIO COLORE html
 
+![widht: 750px](screen/cambiocolorehtml.png)
+
+---
+# CAMBIO COLORE js
+
+![widht: 750px](screen/cambiocolorejs.png)
 
 ---
 ## SCARPE
+all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
 
 
 ---
 # PAGINA DETTAGLIO PRODOTTO
-
+in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
 ---
 
-# CAMBIO TAGLIA
+# CAMBIO TAGLIA html
 
+![widht: 750px](#cambio-colore-html)
+---
+# CAMBIO TAGLIA js
+
+![widht: 750px](#cambio-colore-js)
 
 ---
 ## CARRELLO
