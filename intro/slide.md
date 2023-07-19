@@ -58,7 +58,7 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
 
 
-![bg right 60% height: 900px](screen/chatgpt.png)
+![bg right 60% height: 1500px](screen/chatgpt.png)
 
 
 
@@ -257,7 +257,7 @@ Ho inserito la mappa presa da googleMaps
 
 # QRCODE
 
-![widht: 150px](qrcode.png)
+![widht: 60px](qrcode.png)
 
 ---
 
