@@ -179,12 +179,12 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 
 
-![widht: 500px](screeniphone/coloritelefono.png)
+![bg right 50% height: 400px](screeniphone/coloritelefono.png)
 
 ---
 
+![bg right 50% height: 400px](screeniphone/coloreblutelefono.png)
 
-![widht: 500px](screeniphone/coloreblutelefono.png)
 
 ---
 
@@ -201,11 +201,14 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 # SCARPE
 all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
 
+![bg right 50% height: 400px](screeniphone/scarpetelefono.png)
+
 
 ---
 # pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
+![bg right 50% height: 400px](screeniphone/descrizionescarpetelefono.png)
 ---
 
 # Cambio taglia html
@@ -216,7 +219,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 # Cambio taglia js
 
-![widht: 400px]()
+![widht: 400px](screen/cambiotagliajs.png)
 
 ---
 # CARRELLO
@@ -291,7 +294,6 @@ screen
 
 ---
 # VALIDATOR
-screen
 
 
 ---
