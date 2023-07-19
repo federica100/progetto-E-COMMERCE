@@ -131,7 +131,8 @@ html
 # Carosello
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
-![bg right 50% height: 400px](screeniphone/hometelefono.png.png)
+
+![bg right 50% height: 800px](screeniphone/hometelefono.png)
 
 ---
 # codice
