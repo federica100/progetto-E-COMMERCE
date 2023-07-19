@@ -54,11 +54,15 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 ---
 
 # Chat Gpt AI
-
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
 
 
-![bg right 60% height: 1500px](screen/chatgpt.png)
+"mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
+
+ChatGPT
+Descrizione della borsa di media grandezza con più reparti interni, catena dorata e chiusura a bottone:
+
+"La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per adattarsi alle esigenze della vita quotidiana, offrendo spazio sufficiente per organizzare i tuoi oggetti personali in modo ordinato e mantenere tutto a portata di mano."
 
 
 
@@ -102,7 +106,7 @@ nella home è presente una nav bar che permette all'utente di andare alla pagina
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
-![bg right 50% height: 400px](screeniphone/hometelefono.png)
+![bg right 50% height: 400px]()
 
 
 ---
