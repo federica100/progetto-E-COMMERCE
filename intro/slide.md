@@ -108,7 +108,7 @@ nella parte sottostante è presente una barra di ricerca che indirizza direttame
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
 
-![bg right 50% height: 400px]() inserire screen 
+![bg right 50% height: 400px](screeniphone/home.png)
 
 
 ---
@@ -137,8 +137,7 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 html
 ![bg right 50% height: 1500px](screen/carosello.png)
 
-screen
-
+![bg right 50% height: 400px](screeniphone/homeschermata.png)
 
 ---
 
@@ -166,7 +165,7 @@ html
 # Codice
 
 
-js
+js e jquery?
 
 
 ---
@@ -180,6 +179,8 @@ nella pagina del chi siamo ho inserito una descrizione del brand e una presentaz
 
 # BORSE
 all'interno della pagina dei prodotti, ho inserito tre tipologie di borse diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
+
+![bg right 50% height: 400px](screeniphone/borsetelefono.png)
 
 
 ---
