@@ -101,7 +101,6 @@ Tutte le pagine sono dootate di una struttura base : nav bar con logo e footer.
 ---
 
 # Home
-
 nella home è presente una nav bar che permette all'utente di andare alla pagina desiderata, come in tutte le pagine.
 
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
@@ -135,11 +134,15 @@ html
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
 html
-![bg right 50% height: 1500px](screen/carosello.png)
+![widht: 750px](screen/carosello.png)
+
+
+---
 
 ![bg right 50% height: 400px](screeniphone/homeschermata.png)
 
 ---
+
 
 # Barra di ricerca
 
@@ -208,7 +211,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 # cambio colore js
 
-![widht: 400px](screen/cambiocolorejs.png)
+![widht: 200px](screen/cambiocolorejs.png)
 
 ---
 
@@ -237,7 +240,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 # Cambio taglia js
 
-![widht: 400px](screen/cambiotagliajs.png)
+![widht: 300px](screen/cambiotagliajs.png)
 
 ---
 
@@ -245,13 +248,13 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
 
-![widht: 500px](screeniphone/carrelloetelefono.png)
+![widht: 100px](screeniphone/carrelloetelefono.png)
 
 ---
 
 # Calcolo totale - jquery
 
-![widht: 550px](screen/calcolototalejs.png)
+![widht: 100px](screen/calcolototalejs.png)
 
 ---
 
@@ -265,7 +268,7 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 
 Nella pagina dei contatti ho inserito le informazioni per contattare il negozio: posizione, telefono, mail.
 
-![widht: 500px](screeniphone/contatti.png)
+![widht: 100px](screeniphone/contatti.png)
 
 ---
 
@@ -286,7 +289,7 @@ all'interno della pagina contatti ho anche inserito un modulo che permette all'u
 
 Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
 
-![widht: 750px](screeniphone/grazietelefono.png)
+![widht: 100px](screeniphone/grazietelefono.png)
 
 ---
 
@@ -330,3 +333,6 @@ W3C Validator
 è un passoimportante verso la garanzia della qualitàtecnica delle pagine web.
 
 ---
+
+# Grazie per l'attenzione
+Federica Ferrenti
