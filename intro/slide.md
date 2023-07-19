@@ -177,8 +177,8 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di borse divers
 # Pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
-![widht: 750px](screeniphone/coloritelefono.png)
-![widht: 750px](screeniphone/coloreblutelefono.png)
+![bg right 50% height: 300px](screeniphone/coloritelefono.png)
+![bg right 50% height: 300px](screeniphone/coloreblutelefono.png)
 
 ---
 
