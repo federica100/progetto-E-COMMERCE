@@ -183,13 +183,6 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 --- 
 
-=======
-![widht: 700px](screeniphone/coloritelefono.png)
-![widht: 700px](screeniphone/coloreblutelefono.png)
-
----
->>>>>>> ab52122b21469b7d8f75fbd17c4c0e1aaf105dfc
-
 
 # cambio colore html
 
