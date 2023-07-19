@@ -42,7 +42,6 @@ var colorSelect = document.getElementById('color');
 colorSelect.addEventListener('change', changeBagImage);
 function displayBorsePage() {
 
-
   // Crea il contenuto della pagina delle borse
   var html = '<a href="borse.html">Scopri i nostri modelli di borse fashion</a>';
 
