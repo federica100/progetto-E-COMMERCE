@@ -98,7 +98,9 @@ nella home è presente una nav bar che permette all'utente di andare alla pagina
 
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
 
-All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
+All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
+![bg right 50% height: 150px](screeniphone/hometelefono.png)
+
 
 ---
 
@@ -106,7 +108,7 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
 
-
+![bg right 50% height: 150px](screeniphone/hometelefono.png)
 
 
 ---
@@ -123,7 +125,9 @@ js
 # Carosello
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
+![bg right 50% height: 150px](screeniphone/hometelefono.png)
 
+---
 html 
 ![widht: 750px]()
 
@@ -161,15 +165,20 @@ js
 # CHI SIAMO
 nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
 
+![widht: 750px](screeniphone/chisiamotelefono.png)
+
 ---
 
 # BORSE
 all'interno della pagina dei prodotti, ho inserito tre tipologie di borse diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
+![widht: 750px](screeniphone/borsetelefono.png)
 
 ---
 # Pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
+![bg right 50% height: 300px](screeniphone/coloritelefono.png)
+![bg right 50% height: 300px](screeniphone/coloreblutelefono.png)
 
 ---
 
