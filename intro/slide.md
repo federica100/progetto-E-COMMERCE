@@ -158,6 +158,8 @@ la barra di ricerca inserita effettua una ricerca e genera un link collegato all
 
 html
 
+![widht: 750px](screen/barradiricercahtml.png)
+
 
 ---
 
