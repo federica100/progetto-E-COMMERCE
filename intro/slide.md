@@ -249,10 +249,6 @@ screen
 # VALIDATOR
 screen
 
----
-# GT metrix
-uno dei migliori strumentiper testare la velocità
-e le prestazioni
 
 ---
 # PAGESPEED Insight
