@@ -11,7 +11,7 @@ footer: https://github.com/matteobaccan/CorsoWebDesign
 
 
 ---
-![bg right 50% height: 200px](befashionlogo%20copia.png)
+![bg right 50% height: 150px](befashiongrande.png)
 # PROGETTO ESAME
 **Web Design 2 - Matteo Baccan**
 ## E-commerce di Borse&Calzature
@@ -60,7 +60,19 @@ Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
 ![bg right 60% height: 20px](screen/chatgpt.png)
 ---
 
+# boostraph
+
+
+
+---
+# JQuery
+
+
+
+---
+
 # LA CREAZIONE DEL SITO WEB
+
 
 ---
 
@@ -135,6 +147,9 @@ js
 ---
 ## JQUERY
 
+Cos'è jQuery e a cosa serve
+jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  ![bg right 60% height: 30px](JQuery-Logo.svg.png)
+
 
 ---
 
@@ -179,39 +194,51 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 # CAMBIO TAGLIA html
 
-![widht: 750px](#cambio-colore-html)
+![widht: 750px](screen/cambiocolorehtml.png)
 ---
 # CAMBIO TAGLIA js
 
-![widht: 750px](#cambio-colore-js)
+![widht: 750px](screen/cambiocolorejs.png)
 
 ---
 ## CARRELLO
+Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
 
 
 ---
-# calcolo totale
+# calcolo totale - jquery
+![widht: 750px](screen/calcolototalejs.png)
 
+---
+# rimozione prodotto - html
+![widht: 750px](screen/rimuoviprdottohtml.png)
 
 ---
 ## CONTATTI
-
+Nella pagina dei contatti ho inserito le informazioni per contattare il negozio: posizione, telefono, mail.
 
 ---
 # MODULO INVIO DOMANDA
-
+all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
 ---
 
 # privacy
+Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
+
+---
+
+# MAPPA
+![widht: 750px](screen/mappahtml.png)
+
+---
+## PRIVACY
 
 
 ---
 
-## MAPPA
 
 
----
 
 ## RESPONSIVE
 
