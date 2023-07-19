@@ -316,7 +316,6 @@ Ho inserito la mappa presa da googleMaps
 
 # RESPONSIVE
 
-screen
 ![widht: 750px](ipadpro.png)
 
 ---
