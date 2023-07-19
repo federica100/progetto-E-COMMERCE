@@ -3,7 +3,6 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
 marp: true
 footer: https://github.com/federica100/progetto-E-COMMERCE
 ---
@@ -57,7 +56,7 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 # Chat Gpt AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
-![bg right 60% height: 70px](screen/chatgpt.png)
+![bg right 60% height: 100px](screen/chatgpt.png)
 
 ---
 
@@ -99,7 +98,7 @@ nella home è presente una nav bar che permette all'utente di andare alla pagina
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
-![bg right 50% height: 150px](screeniphone/hometelefono.png)
+![bg right 50% height: 400px](screeniphone/hometelefono.png)
 
 
 ---
@@ -108,7 +107,7 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
 
-![bg right 50% height: 150px](screeniphone/hometelefono.png)
+![bg right 50% height: 400px](screeniphone/hometelefono.png)
 
 
 ---
@@ -117,7 +116,6 @@ All'interno dello home ho inserito un pop up con cookie che indirizza alla pagin
 html
 ![widht: 750px](screen/cookiehtml.png)
 
-js
 
 
 
@@ -125,19 +123,16 @@ js
 # Carosello
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
-![bg right 50% height: 150px](screeniphone/hometelefono.png)
+![bg right 50% height: 400px](screeniphone/hometelefono.png)
 
 ---
+# codice
 html 
 ![widht: 750px]()
 
 
 ---
 # codice
-
-html
-
-
 js
 
 ---
@@ -151,40 +146,40 @@ js
 # Codice
 
 html
-![widht: 750px](screen/barradiricercahtmL.png)
+![widht: 750px](screen/barradiricercahtml.png)
 
+---
+
+# Codice
+
+html
 js
-
-
-
-
-
 
 
 ---
 # CHI SIAMO
 nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
 
-![widht: 750px](screeniphone/chisiamotelefono.png)
+
 
 ---
 
 # BORSE
 all'interno della pagina dei prodotti, ho inserito tre tipologie di borse diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
-![widht: 750px](screeniphone/borsetelefono.png)
+
 
 ---
 # Pagina dettaglio prodotto
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
-![bg right 50% height: 300px](screeniphone/coloritelefono.png)
-![bg right 50% height: 300px](screeniphone/coloreblutelefono.png)
+![bg right 50% height: 600px](screeniphone/coloritelefono.png)
+![bg right 50% height: 600px](screeniphone/coloreblutelefono.png)
 
 ---
 
 # cambio colore html
 
-![widht: 750px](screen/cambiocolorehtml.png)
+![widht: 700px](screen/cambiocolorehtml.png)
 
 ---
 # cambio colore js
@@ -205,7 +200,9 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 # Cambio taglia html
 
 ![widht: 400px](screen/cambiocolorehtml.png)
+
 ---
+
 # Cambio taglia js
 
 ![widht: 400px]()
@@ -217,7 +214,7 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 
 ---
 # Calcolo totale - jquery
-![widht: 650px](screen/calcolototalejs.png)
+![widht: 550px](screen/calcolototalejs.png)
 
 ---
 # Rimozione prodotto - html
@@ -233,34 +230,40 @@ all'interno della pagina contatti ho anche inserito un modulo che permette all'u
 
 ---
 # Modulo invio domanda
-![widht: 750px](screen/inviamessaggiojs.png)
+![widht: 700px](screen/inviamessaggiojs.png)
 
 ---
 
 # Privacy
+
 Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
 ![widht: 750px](screen/selezionecasellajs.png)
+
 ---
 
 # Mappa
+
 Ho inserito la mappa presa da googleMaps
 ![widht: 750px]()
 
 ---
 
 # QRCODE
-![widht: 400px](qrcode.png)
+
+![widht: 150px](qrcode.png)
 
 ---
 
 
 # RESPONSIVE
+
 screen
-![widht: 750px](desktop.png)
+![widht: 650px](desktop.png)
 
 ---
 
 # RESPONSIVE
+
 screen
 ![widht: 750px](ipadpro.png)
 
