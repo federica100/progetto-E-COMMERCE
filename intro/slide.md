@@ -211,7 +211,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 # cambio colore js
 
-![widht: 200px](screen/cambiocolorejs.png)
+![widht: 70px](screen/cambiocolorejs.png)
 
 ---
 
@@ -248,7 +248,8 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
 
-![widht: 100px](screeniphone/carrelloetelefono.png)
+![bg right 50% height: 400px](screeniphone/carrelloetelefono.png)
+
 
 ---
 
@@ -268,7 +269,8 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 
 Nella pagina dei contatti ho inserito le informazioni per contattare il negozio: posizione, telefono, mail.
 
-![widht: 100px](screeniphone/contatti.png)
+![bg right 50% height: 400px](screeniphone/contatti.png)
+
 
 ---
 
@@ -276,7 +278,8 @@ Nella pagina dei contatti ho inserito le informazioni per contattare il negozio:
 
 all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
-![widht: 750px](screeniphone/boxdomandatelefono.png)
+![bg right 50% height: 400px](screeniphone/boxdomandatelefono.png)
+
 
 ---
 
@@ -289,7 +292,8 @@ all'interno della pagina contatti ho anche inserito un modulo che permette all'u
 
 Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
 
-![widht: 100px](screeniphone/grazietelefono.png)
+![bg right 50% height: 400px](screeniphone/grazietelefono.png)
+
 
 ---
 
