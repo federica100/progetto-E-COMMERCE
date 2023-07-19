@@ -54,6 +54,7 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 ---
 
 # Chat Gpt AI
+
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici
 
 
@@ -69,12 +70,14 @@ Descrizione della borsa di media grandezza con più reparti interni, catena dora
 ---
 
 # Boostraph
+
 Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicazioni per il Web. Contienemodelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
 Divide lo spazio in terzi : 12 colonne.
 
 
 ---
 # JQuery
+
 Cos'è jQuery e a cosa serve
 jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  
 
@@ -132,7 +135,7 @@ html
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
 html
-![bg right 50% height: 800px](screen/carosello.png)
+![bg right 50% height: 1500px](screen/carosello.png)
 
 screen
 
@@ -163,9 +166,10 @@ js
 
 ---
 # CHI SIAMO
+
 nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
 
-
+![bg right 50% height: 400px](screeniphone/chisiamotelefono.png)
 
 ---
 
@@ -175,6 +179,7 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di borse divers
 
 ---
 # Pagina dettaglio prodotto
+
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio colore.
 
 
@@ -182,6 +187,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ![bg right 50% height: 400px](screeniphone/coloritelefono.png)
 
 ---
+
 
 ![bg right 50% height: 400px](screeniphone/coloreblutelefono.png)
 
@@ -193,22 +199,28 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ![widht: 700px](screen/cambiocolorehtml.png)
 
 ---
+
 # cambio colore js
 
 ![widht: 400px](screen/cambiocolorejs.png)
 
 ---
+
 # SCARPE
+
 all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
 
 ![bg right 50% height: 400px](screeniphone/scarpetelefono.png)
 
 
 ---
+
 # pagina dettaglio prodotto
+
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
 ![bg right 50% height: 400px](screeniphone/descrizionescarpetelefono.png)
+
 ---
 
 # Cambio taglia html
@@ -222,7 +234,9 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ![widht: 400px](screen/cambiotagliajs.png)
 
 ---
+
 # CARRELLO
+
 Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
 
 ![widht: 500px](screeniphone/carrelloetelefono.png)
@@ -230,25 +244,33 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 ---
 
 # Calcolo totale - jquery
+
 ![widht: 550px](screen/calcolototalejs.png)
 
 ---
+
 # Rimozione prodotto - html
+
 ![widht: 750px](screen/rimuoviprdottohtml.png)
 
 ---
+
 # CONTATTI
+
 Nella pagina dei contatti ho inserito le informazioni per contattare il negozio: posizione, telefono, mail.
 
 ![widht: 500px](screeniphone/contatti.png)
 
 ---
+
 # Modulo invio domanda
+
 all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
 ![widht: 750px](screeniphone/boxdomandatelefono.png)
 
 ---
+
 # Modulo invio domanda
 ![widht: 700px](screen/inviamessaggiojs.png)
 
@@ -279,14 +301,6 @@ Ho inserito la mappa presa da googleMaps
 
 ---
 
-
-# RESPONSIVE
-
-screen
-![widht: 650px](desktop.png)
-
----
-
 # RESPONSIVE
 
 screen
@@ -298,10 +312,13 @@ screen
 
 ---
 # PAGESPEED Insight
+
 è uno strumento gratuito diGoogle che permette di misurare la velocità dicaricamento di una pagina web.
 
 ---
+
 # WC3 Validator
+
 W3C Validator
 è un validatore del WorldWide Web Consortium che consente agliutenti di Internet di controllare idocumenti HTML e XHTML;
 è un passoimportante verso la garanzia della qualitàtecnica delle pagine web.
