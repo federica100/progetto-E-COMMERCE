@@ -261,8 +261,7 @@ Ho inserito la mappa presa da googleMaps
 ---
 
 # QRCODE
-
-![widht: 20px](qrcode.png)
+![widht: 4px](qrcode.png)
 
 ---
 
