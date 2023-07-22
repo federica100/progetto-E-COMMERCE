@@ -114,16 +114,17 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 # Cookie
 
-All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
+
+All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
+Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
+
+```js
+function accettaCookie() {
+  document.getElementById("cookie-popup").style.display = "none";
+}
+```
 
 ![bg right 50% height: 400px](screeniphone/hometelefono.png)
-
-
----
-# Codice
-
-html
-![widht: 750px](screen/cookiehtml.png)
 
 
 
@@ -133,11 +134,15 @@ html
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
-html
-![widht: 750px](screen/carosello.png)
+```html
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
 
+```
 
----
+Questo codice crea un carousel di immagini che scorre automaticamente ogni secondo (intervallo impostato a 1000 millisecondi) e offre anche la possibilità di controllare manualmente lo scorrimento utilizzando i link "Previous" e "Next".
 
 ![bg right 50% height: 400px](screeniphone/homeschermata.png)
 
@@ -148,27 +153,39 @@ html
 
 la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
 
+```html
+   <section id="search-bar" class="container">
+      <h2>Cerca il tuo prodotto alla moda!</h2>
+      <form class="d-flex" id="search-form">
+        <input class="form-control me-3" type="text" placeholder="Cerca per categoria..." id="search-input">
+        <button class="btn btn-primary" type="submit">Cerca</button>
+      </form>
+    </section>
+ ```
+
+
 ![bg right 50% height: 400px](screeniphone/barradiricerca.png)
 
 ---
 
+```js
+$(document).ready(function() {
+  $('#search-form').on('submit', function(event) {
+    event.preventDefault();
+
+    var searchTerm = $('#search-input').val();
+
+    // Esegui la ricerca e visualizza i risultati
+    searchProducts(searchTerm);
+  });
+});
+
+```
+
+il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
+
+
 ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
-
----
-
-# Codice
-
-html
-
-![widht: 750px](screen/barradiricercahtml.png)
-
-
----
-
-# Codice
-
-
-js e jquery?
 
 
 ---
@@ -203,13 +220,25 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 ---
 
-# cambio colore html
-
-![widht: 700px](screen/cambiocolorehtml.png)
-
----
 
 # cambio colore js
+
+```js
+ function changeBagImage() {
+        var colorSelect = document.getElementById('color');
+        var selectedColor = colorSelect.value;
+        var bagImage = document.querySelector('.bag-image');
+
+        if (selectedColor === 'rosso') {
+          bagImage.src = 'immagini/borsarossa-min-min.jpg';
+      ...
+      }
+
+      var colorSelect = document.getElementById('color');
+      colorSelect.addEventListener('change', changeBagImage);
+```
+
+la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondentemente. L'aggiunta dell'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
 
 ![widht: 70px](screen/cambiocolorejs.png)
 
@@ -232,13 +261,31 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 ---
 
-# Cambio taglia html
 
-![widht: 400px](screen/cambiocolorehtml.png)
+# Cambio taglia 
 
----
 
-# Cambio taglia js
+```js
+function visualizzaTaglie() {
+  var taglie = document.getElementById("taglie");
+  var taglieup = document.getElementById("taglieup");
+  var tagliedown = document.getElementById("tagliedown");
+  if (taglie.style.display === "none") {
+    taglie.style.display = "block";
+    taglieup.style.display = "block";
+    tagliedown.style.display = "none";
+  } else {
+    taglie.style.display = "none";
+    taglieup.style.display = "none";
+    tagliedown.style.display = "block";
+  }
+}
+function cambiaTaglia() {
+  var taglia = document.getElementById("taglia");
+  taglia.value = event.target.innerHTML;
+}
+```
+ la funzione visualizzaTaglie() consente di mostrare o nascondere le taglie disponibili e gestisce gli stili degli elementi correlati (come le frecce di navigazione) di conseguenza. La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di input di selezione della taglia in base all'opzione selezionata dall'utente.
 
 ![widht: 300px](screen/cambiotagliajs.png)
 
@@ -255,11 +302,40 @@ Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo pr
 
 # Calcolo totale - jquery
 
-![widht: 100px](screen/calcolototalejs.png)
+```js
+$(document).ready(function() {
+        $('.quantita').on('input', function() {
+          calcolaTotale();
+        });
+  
+        function calcolaTotale() {
+          var totale = 0;
+  
+          $('.quantita').each(function() {
+            var quantita = parseInt($(this).val());
+            var prezzo = parseInt($(this).closest('tr').find('td:nth-child(3)').text().replace('€', ''));
+            totale += quantita * prezzo;
+          });
+  
+          $('#totale').text('€' + totale);
+        }
+      });
+```
+
+La funzione calcolaTotale() calcola il totale dei prodotti moltiplicando la quantità di ciascun prodotto per il suo prezzo unitario. Dopodiché, somma i risultati e imposta il testo di un elemento specifico con l'id "totale" con il valore calcolato, mostrando così il totale aggiornato del carrello.
 
 ---
 
 # Rimozione prodotto - html
+
+```js
+ $(document).on('click', '.rimuovi-prodotto', function() {
+          $(this).closest('tr').remove();
+          calcolaTotale();
+        });
+```
+ questa funzione gestisce l'evento di click su un elemento con la classe "rimuovi-prodotto" e rimuove la riga del prodotto corrispondente dalla tabella del carrello. Successivamente, viene chiamata la funzione calcolaTotale() per aggiornare il totale dei prodotti nel carrello dopo la rimozione.
+
 
 ![widht: 750px](screen/rimuoviprdottohtml.png)
 
@@ -278,13 +354,30 @@ Nella pagina dei contatti ho inserito le informazioni per contattare il negozio:
 
 all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
+
 ![bg right 50% height: 400px](screeniphone/boxdomandatelefono.png)
 
 
 ---
 
 # Modulo invio domanda
-![widht: 700px](screen/inviamessaggiojs.png)
+
+```js
+function inviaMessaggio() {
+      var consensoCheckbox = document.getElementById("checkboxConsenso");
+      if (!consensoCheckbox.checked) {
+        alert("Devi accettare l'informativa sulla privacy per inviare il messaggio.");
+        return false;
+      }
+      // Resto del codice per l'invio del messaggio
+      // ...
+      // Se l'invio è completato con successo, mostrare il messaggio di ringraziamento
+      document.getElementById("consenso").style.display = "none";
+      document.getElementById("messaggio").style.display = "block";
+      return false;
+    }
+ ```
+Questa funzione gestisce l'invio di un messaggio da un modulo, ma solo se l'utente ha fornito il consenso all'utilizzo dei dati personali, altrimenti mostrerà un avviso. Dopo l'invio del messaggio, viene visualizzato un messaggio di ringraziamento al posto dell'avviso di consenso.
 
 ---
 
@@ -295,17 +388,34 @@ Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il 
 ![bg right 50% height: 400px](screeniphone/grazietelefono.png)
 
 
----
+```js
+function accettaInformativa() {
+  var checkbox = document.getElementById('checkboxConsenso');
+  var messaggio = document.getElementById('messaggio');
+
+  if (checkbox.checked) {
+    messaggio.style.display = 'block';
+  } else {
+    messaggio.style.display = 'none';
+  }
+}
+```
 
 
-![widht: 750px](screen/selezionecasellajs.png)
+questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso (che potrebbe essere un messaggio di conferma o ringraziamento). Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
 
 ---
 
 # Mappa
 
 Ho inserito la mappa presa da googleMaps
-![widht: 750px](screen/mappa.png)
+
+```js
+<iframe class="mappa"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89547.27743410038!2d9.095331774306576!3d45.462704227595324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2sMilano%20MI!5e0!3m2!1sit!2sit!4v1687175129849!5m2!1sit!2sit"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+     referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
 
 ---
 
