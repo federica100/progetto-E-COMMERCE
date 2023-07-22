@@ -113,26 +113,27 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 ---
 
 # Cookie
-
-
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
-Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
+
+![bg right 50% height: 400px](screeniphone/hometelefono.png)
+---
 
 ```js
 function accettaCookie() {
   document.getElementById("cookie-popup").style.display = "none";
 }
 ```
-
-![bg right 50% height: 400px](screeniphone/hometelefono.png)
-
-
-
+Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
 
 ---
+
 # Carosello
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
+
+![bg right 50% height: 400px](screeniphone/homeschermata.png)
+
+---
 
 ```html
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
@@ -141,17 +142,18 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
 
 ```
-
 Questo codice crea un carousel di immagini che scorre automaticamente ogni secondo (intervallo impostato a 1000 millisecondi) e offre anche la possibilità di controllare manualmente lo scorrimento utilizzando i link "Previous" e "Next".
 
-![bg right 50% height: 400px](screeniphone/homeschermata.png)
-
 ---
-
 
 # Barra di ricerca
 
 la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
+
+![bg right 50% height: 400px](screeniphone/barradiricerca.png)
+
+
+---
 
 ```html
    <section id="search-bar" class="container">
@@ -162,10 +164,8 @@ la barra di ricerca inserita effettua una ricerca e genera un link collegato all
       </form>
     </section>
  ```
-
-
-![bg right 50% height: 400px](screeniphone/barradiricerca.png)
-
+ 
+ ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
 ---
 
 ```js
@@ -181,14 +181,12 @@ $(document).ready(function() {
 });
 
 ```
-
 il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
 
 
-![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
-
 
 ---
+
 # CHI SIAMO
 
 nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
@@ -198,6 +196,7 @@ nella pagina del chi siamo ho inserito una descrizione del brand e una presentaz
 ---
 
 # BORSE
+
 all'interno della pagina dei prodotti, ho inserito tre tipologie di borse diverse. Cliccando su "visualizza" l'utente verrà indirizzato alla pagina del prodotto in dettaglio.
 
 ![bg right 50% height: 400px](screeniphone/borsetelefono.png)
@@ -215,7 +214,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 
 
-![bg right 50% height: 400px](screeniphone/coloreblutelefono.png)
+![height: 450px](screeniphone/coloreblutelefono.png)
 
 
 ---
@@ -240,7 +239,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondentemente. L'aggiunta dell'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
 
-![widht: 70px](screen/cambiocolorejs.png)
+
 
 ---
 
@@ -253,17 +252,15 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diver
 
 ---
 
-# pagina dettaglio prodotto
+# Pagina dettaglio prodotto
 
 in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
-![bg right 50% height: 400px](screeniphone/descrizionescarpetelefono.png)
+![bg right 50% height: 400px](screeniphonedescrizionescarpetelefono.png)
 
----
-
+--
 
 # Cambio taglia 
-
 
 ```js
 function visualizzaTaglie() {
@@ -285,9 +282,10 @@ function cambiaTaglia() {
   taglia.value = event.target.innerHTML;
 }
 ```
+
  la funzione visualizzaTaglie() consente di mostrare o nascondere le taglie disponibili e gestisce gli stili degli elementi correlati (come le frecce di navigazione) di conseguenza. La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di input di selezione della taglia in base all'opzione selezionata dall'utente.
 
-![widht: 300px](screen/cambiotagliajs.png)
+
 
 ---
 
@@ -334,10 +332,11 @@ La funzione calcolaTotale() calcola il totale dei prodotti moltiplicando la quan
           calcolaTotale();
         });
 ```
+
  questa funzione gestisce l'evento di click su un elemento con la classe "rimuovi-prodotto" e rimuove la riga del prodotto corrispondente dalla tabella del carrello. Successivamente, viene chiamata la funzione calcolaTotale() per aggiornare il totale dei prodotti nel carrello dopo la rimozione.
 
 
-![widht: 750px](screen/rimuoviprdottohtml.png)
+
 
 ---
 
@@ -388,6 +387,8 @@ Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il 
 ![bg right 50% height: 400px](screeniphone/grazietelefono.png)
 
 
+---
+
 ```js
 function accettaInformativa() {
   var checkbox = document.getElementById('checkboxConsenso');
@@ -401,7 +402,6 @@ function accettaInformativa() {
 }
 ```
 
-
 questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso (che potrebbe essere un messaggio di conferma o ringraziamento). Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
 
 ---
@@ -411,10 +411,7 @@ questa funzione viene chiamata quando l'utente spunta o deseleziona la casella d
 Ho inserito la mappa presa da googleMaps
 
 ```js
-<iframe class="mappa"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89547.27743410038!2d9.095331774306576!3d45.462704227595324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2sMilano%20MI!5e0!3m2!1sit!2sit!4v1687175129849!5m2!1sit!2sit"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-     referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ```
 
 ---
