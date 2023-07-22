@@ -114,16 +114,17 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 
 # Cookie
 
-All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy
+All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
+Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
+
+js
+function accettaCookie() {
+  document.getElementById("cookie-popup").style.display = "none";
+}
+
+
 
 ![bg right 50% height: 400px](screeniphone/hometelefono.png)
-
-
----
-# Codice
-
-html
-![widht: 750px](screen/cookiehtml.png)
 
 
 
