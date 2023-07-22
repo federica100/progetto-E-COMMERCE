@@ -116,6 +116,7 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
 
 ![bg right 50% height: 400px](screeniphone/hometelefono.png)
+
 ---
 
 ```js
@@ -166,6 +167,7 @@ la barra di ricerca inserita effettua una ricerca e genera un link collegato all
  ```
  
  ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
+
 ---
 
 ```js
@@ -214,7 +216,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 
 
-![height: 450px](screeniphone/coloreblutelefono.png)
+![bg right 50% height: 400px](screeniphone/coloreblutelefono.png)
 
 
 ---
