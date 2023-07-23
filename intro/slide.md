@@ -56,15 +56,15 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 # Chat Gpt AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici.
+"
 
-```
-"mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
+##Utente
+Mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
 
-ChatGPT
+##ChatGPT
 Descrizione della borsa di media grandezza con più reparti interni, catena dorata e chiusura a bottone:
+"La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per..."
 
-"La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per adattarsi alle esigenze della vita quotidiana, offrendo spazio sufficiente per organizzare i tuoi oggetti personali in modo ordinato e mantenere tutto a portata di mano."
-```
 
 
 ---
@@ -261,7 +261,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 ---
 
-# Cambio taglia 
+# Visualizza taglia 
 
 ```js
 function visualizzaTaglie() {
@@ -278,6 +278,15 @@ function visualizzaTaglie() {
     tagliedown.style.display = "block";
   }
 }
+```
+
+ la funzione visualizzaTaglie() consente di mostrare o nascondere le taglie disponibili e gestisce gli stili degli elementi correlati (come le frecce di navigazione) di conseguenza.
+
+---
+
+# Cambia taglia 
+
+```js
 function cambiaTaglia() {
   var taglia = document.getElementById("taglia");
   taglia.value = event.target.innerHTML;
