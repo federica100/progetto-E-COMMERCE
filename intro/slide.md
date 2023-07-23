@@ -424,10 +424,13 @@ All'interno della pagina della privacy, presente all'interno dei siti web, sono 
 
 GtMetrix è uno dei migliori strumenti per testare la velocità e le prestazioni di un sito web.
 
-![widht: 350px](gtmetrix.png)
-
 
 ---
+
+![widht: 350px](gtmetrix.png)
+
+---
+
 
 # Grazie per l'attenzione
   Federica Ferrenti
