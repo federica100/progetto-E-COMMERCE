@@ -420,13 +420,11 @@ All'interno della pagina della privacy, presente all'interno dei siti web, sono 
 
 ---
 
-# VALIDATOR
-
-## GtMetrix
+# GtMetrix
 
 GtMetrix è uno dei migliori strumenti per testare la velocità e le prestazioni di un sito web.
 
-![widht: 600px](gtmetrix.png)
+![widht: 300px](gtmetrix.png)
 
 
 ---
