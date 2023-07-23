@@ -434,4 +434,4 @@ GtMetrix è uno dei migliori strumenti per testare la velocità e le prestazioni
 ---
 
 # Grazie per l'attenzione
-Federica Ferrenti
+  Federica Ferrenti
