@@ -421,17 +421,11 @@ questa funzione viene chiamata quando l'utente spunta o deseleziona la casella d
 
 
 ---
-# PAGESPEED Insight
+# GtMetrix
 
-è uno strumento gratuito diGoogle che permette di misurare la velocità dicaricamento di una pagina web.
+GtMetrix è uno dei migliori strumentiper testare la velocità e le prestazioni di un sito web.
 
----
-
-# WC3 Validator
-
-W3C Validator
-è un validatore del WorldWide Web Consortium che consente agliutenti di Internet di controllare idocumenti HTML e XHTML;
-è un passoimportante verso la garanzia della qualitàtecnica delle pagine web.
+![widht: 750px](gtmetrix.png)
 
 ---
 
