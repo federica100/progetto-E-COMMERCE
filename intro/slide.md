@@ -57,15 +57,13 @@ Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft per W
 # Chat Gpt AI
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici.
-"
 
-## Utente
+#  Utente
 Mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
 
-## ChatGPT
+# ChatGPT
 Descrizione della borsa di media grandezza con più reparti interni, catena dorata e chiusura a bottone:
-"La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per..."
-
+"La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità..."
 
 
 ---
