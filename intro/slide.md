@@ -29,25 +29,25 @@ A.A 2022/2023 - ACME NOVARA
 
  Durante il corso di Web Design 2 ho creato un e-commerce con più pagine ed elementi interattivi.
 
-il nome del sito web che ho realizzato è BE FASHION, UN E-COMMERCE DI ACCESSORI (Borse&scarpe)
+Il nome del sito web è BE FASHION, un e-commerce ACCESSORI (Borse&scarpe)
 
 ---
 # STRUMENTI
 
-i file per la programmazione del sito sono stati sono HTML, CSS e Javascript.
+I file per la programmazione del sito sono stati sono HTML, CSS e Javascript.
 
-ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
+Ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
 
 ---
 # SUPPORTI
 
-I supporti utlizzati per il completamento del sito sono: Visual Studio Code, Github e Netlify
+I supporti utlizzati per il completamento del sito sono: Visual Studio Code, Github e Netlify.
 
 
 ---
 #  Visual Studio Code
 
-Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft per Windows, Linux e macOS
+Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft per Windows, Linux e macOS.
 ![bg right 60% height: 30px](visualstudiocode.png)
 
 
@@ -59,10 +59,10 @@ Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft per W
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici.
 "
 
-##Utente
+## Utente
 Mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
 
-##ChatGPT
+## ChatGPT
 Descrizione della borsa di media grandezza con più reparti interni, catena dorata e chiusura a bottone:
 "La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per..."
 
@@ -82,7 +82,7 @@ Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicaz
 
 jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  
 
-![bg right 60% height: 30px](JQuery-Logo.svg.png)
+![bg right 60% height: 45px](JQuery-Logo.svg.png)
 
 
 ---
@@ -97,7 +97,7 @@ jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, ver
 # STRUTTURA
 
 Il sito è composto da 5 pagine: 
-Home, Chi siamo, Borse, Scarpe, Carrello, Contatti
+Home, Chi siamo, Borse, Scarpe, Carrello, Contatti.
 
 Tutte le pagine sono dotate di elementi comuni: nav bar con logo, footer e elementi grafici.
 
@@ -107,7 +107,7 @@ Tutte le pagine sono dotate di elementi comuni: nav bar con logo, footer e eleme
 
 Nella home è presente una nav bar che permette all'utente di raggiungere la pagina desiderata.
 
-nella parte sottostante ho inserito una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link.
+Nella parte sottostante ho inserito una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link.
 
 ![bg right 50% height: 400px](screeniphone/home.png)
 
@@ -115,7 +115,7 @@ nella parte sottostante ho inserito una barra di ricerca che indirizza direttame
 ---
 # Barra di ricerca
 
-la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
+La barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
 
 ![bg right 50% height: 400px](screeniphone/barradiricerca.png)
 
@@ -215,7 +215,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 
 
-# Cambio colore js
+# Cambio colore 
 
 ```js
  function changeBagImage() {
@@ -227,12 +227,10 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
           bagImage.src = 'immagini/borsarossa-min-min.jpg';
       ...
       }
-
       var colorSelect = document.getElementById('color');
       colorSelect.addEventListener('change', changeBagImage);
 ```
-
-la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondente. L'aggiunta dell'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
+la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondente. L'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
 
 
 
@@ -251,7 +249,7 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diver
 
 In questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
-![bg right 50% height: 400px](screeniphonedescrizionescarpetelefono.png)
+![bg right 50% height: 400px](screeniphone/descrizionescarpetelefono.png)
 
 
 ---
@@ -384,7 +382,7 @@ Questa funzione gestisce l'invio di un messaggio da un modulo, ma solo se l'uten
 
 ---
 
-# Privacy
+# Consenso privacy
 
 Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegamento alla pagina dedicata alinformativa sulla privacy.
 
@@ -410,19 +408,28 @@ Questa funzione viene chiamata quando l'utente spunta o deseleziona la casella d
 
 ---
 
+# PRIVACY
+
+All'interno della pagina della privacy, presente all'interno dei siti web, sono presenti informazioni riguardo i tipi di trattamento, le finalità per cui i dati vengono utilizzati, le misure prese per proteggere le informazioni e i diritti degli utenti riguardo l'uso dei loro dati.
+
+![bg right 50% height: 400px](screeniphone/privacytelefono.png)
+
+--- 
+
 # RESPONSIVE
 
 ![widht: 750px](ipadpro.png)
 
 ---
+
 # VALIDATOR
 
----
-# GtMetrix
+## GtMetrix
 
 GtMetrix è uno dei migliori strumenti per testare la velocità e le prestazioni di un sito web.
 
-![widht: 750px](gtmetrix.png)
+![widht: 600px](gtmetrix.png)
+
 
 ---
 
