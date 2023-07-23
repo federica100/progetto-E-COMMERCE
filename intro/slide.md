@@ -220,7 +220,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 ---
 
 
-# cambio colore js
+# Cambio colore js
 
 ```js
  function changeBagImage() {
@@ -325,7 +325,7 @@ La funzione calcolaTotale() calcola il totale dei prodotti moltiplicando la quan
 
 ---
 
-# Rimozione prodotto - html
+# Rimozione prodotto - jquery
 
 ```js
  $(document).on('click', '.rimuovi-prodotto', function() {
@@ -419,11 +419,10 @@ questa funzione viene chiamata quando l'utente spunta o deseleziona la casella d
 ---
 # VALIDATOR
 
-
 ---
 # GtMetrix
 
-GtMetrix è uno dei migliori strumentiper testare la velocità e le prestazioni di un sito web.
+GtMetrix è uno dei migliori strumenti per testare la velocità e le prestazioni di un sito web.
 
 ![widht: 750px](gtmetrix.png)
 
