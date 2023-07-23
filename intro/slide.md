@@ -154,16 +154,6 @@ la barra di ricerca inserita effettua una ricerca e genera un link collegato all
 
 ---
 
-```html
-   <section id="search-bar" class="container">
-      <h2>Cerca il tuo prodotto alla moda!</h2>
-      <form class="d-flex" id="search-form">
-        <input class="form-control me-3" type="text" placeholder="Cerca per categoria..." id="search-input">
-        <button class="btn btn-primary" type="submit">Cerca</button>
-      </form>
-    </section>
- ```
- 
  ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
 
 ---
