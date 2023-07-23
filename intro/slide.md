@@ -57,14 +57,14 @@ Visual studio code è con github e net![bg right 60% height: 30px](visualstudioc
 
 Chat gpt mi ha aiutato nella realizzazione di testi e in parte di codici.
 
-
+```
 "mi scrivi una descrizione per una borsa di media grandezza  con più reparti interni con catena dorata e chiusura a bottone"
 
 ChatGPT
 Descrizione della borsa di media grandezza con più reparti interni, catena dorata e chiusura a bottone:
 
 "La nostra borsa di media grandezza con più reparti interni è un'opzione perfetta per coloro che cercano un equilibrio ideale tra stile e funzionalità. Questo elegante accessorio è progettato per adattarsi alle esigenze della vita quotidiana, offrendo spazio sufficiente per organizzare i tuoi oggetti personali in modo ordinato e mantenere tutto a portata di mano."
-
+```
 
 
 ---
@@ -78,7 +78,7 @@ Divide lo spazio in terzi : 12 colonne.
 ---
 # JQuery
 
-Cos'è jQuery e a cosa serve
+
 jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, versatile ed estensibile, l'API di jQuery consente di gestire con semplicità delle attività che risulterebbero lunghe o complesse in JavaScript.  
 
 ![bg right 60% height: 30px](JQuery-Logo.svg.png)
@@ -104,8 +104,6 @@ Tutte le pagine sono dootate di una struttura base : nav bar con logo e footer.
 nella home è presente una nav bar che permette all'utente di andare alla pagina desiderata, come in tutte le pagine.
 
 nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
-
-All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe. 
 
 ![bg right 50% height: 400px](screeniphone/home.png)
 
@@ -140,7 +138,7 @@ All'interno dello home ho inserito un carosello che mostra le due principali cat
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
   <ol class="carousel-indicators">
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>...
 
 ```
 Questo codice crea un carousel di immagini che scorre automaticamente ogni secondo (intervallo impostato a 1000 millisecondi) e offre anche la possibilità di controllare manualmente lo scorrimento utilizzando i link "Previous" e "Next".
@@ -260,7 +258,8 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
 
 ![bg right 50% height: 400px](screeniphonedescrizionescarpetelefono.png)
 
---
+
+---
 
 # Cambio taglia 
 
@@ -405,16 +404,6 @@ function accettaInformativa() {
 ```
 
 questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso (che potrebbe essere un messaggio di conferma o ringraziamento). Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
-
----
-
-# Mappa
-
-Ho inserito la mappa presa da googleMaps
-
-```js
-
-```
 
 ---
 
