@@ -89,6 +89,9 @@ jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, ver
 
 # LA CREAZIONE DEL SITO WEB
 
+![bg right 50% height: 100px](qrcode.png)
+
+
 ---
 
 # STRUTTURA
@@ -404,11 +407,6 @@ function accettaInformativa() {
 ```
 
 Questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso. Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
-
----
-
-# QRCODE
-![bg right 50% height: 100px](qrcode.png)
 
 ---
 
