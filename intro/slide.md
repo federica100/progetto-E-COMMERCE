@@ -27,7 +27,7 @@ A.A 2022/2023 - ACME NOVARA
 
 # e-commerce- Be Fashion
 
- Durante il corso di Web Design 2 abbiamo creato un e-commerce con più pagine ed elementi interattivi
+ Durante il corso di Web Design 2 ho creato un e-commerce con più pagine ed elementi interattivi.
 
 il nome del sito web che ho realizzato è BE FASHION, UN E-COMMERCE DI ACCESSORI (Borse&scarpe)
 
@@ -41,13 +41,14 @@ ho lavorato su Visual studio code e github, successivamente ho pubblicato il rep
 ---
 # SUPPORTI
 
-Visual studio code è visual studio code, github e netlify
+I supporti utlizzati per il completamento del sito sono: Visual Studio Code, Github e Netlify
 
 
 ---
 #  Visual Studio Code
 
-Visual studio code è con github e net![bg right 60% height: 30px](visualstudiocode.png)
+Visual Studio Code è un editor di codice sorgente sviluppato da Microsoft per Windows, Linux e macOS
+![bg right 60% height: 30px](visualstudiocode.png)
 
 
 
@@ -71,8 +72,8 @@ Descrizione della borsa di media grandezza con più reparti interni, catena dora
 
 # Boostraph
 
-Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicazioni per il Web. Contienemodelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
-Divide lo spazio in terzi : 12 colonne.
+Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicazioni per il Web. Contiene modelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
+
 
 
 ---
@@ -88,7 +89,6 @@ jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, ver
 
 # LA CREAZIONE DEL SITO WEB
 
-
 ---
 
 # STRUTTURA
@@ -96,21 +96,54 @@ jQuery è una libreria JavaScript cross-browser rilasciata nel 2006. Veloce, ver
 Il sito è composto da 5 pagine: 
 Home, Chi siamo, Borse, Scarpe, Carrello, Contatti
 
-Tutte le pagine sono dootate di una struttura base : nav bar con logo e footer.
+Tutte le pagine sono dotate di elementi comuni: nav bar con logo, footer e elementi grafici.
 
 ---
 
 # Home
-nella home è presente una nav bar che permette all'utente di andare alla pagina desiderata, come in tutte le pagine.
 
-nella parte sottostante è presente una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link
+Nella home è presente una nav bar che permette all'utente di raggiungere la pagina desiderata.
+
+nella parte sottostante ho inserito una barra di ricerca che indirizza direttamente alla pagina delle scarpe o delle borse tramite un link.
 
 ![bg right 50% height: 400px](screeniphone/home.png)
 
 
 ---
+# Barra di ricerca
+
+la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
+
+![bg right 50% height: 400px](screeniphone/barradiricerca.png)
+
+
+---
+
+ ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
+
+---
+
+```js
+$(document).ready(function() {
+  $('#search-form').on('submit', function(event) {
+    event.preventDefault();
+
+    var searchTerm = $('#search-input').val();
+
+    // Esegui la ricerca e visualizza i risultati
+    searchProducts(searchTerm);
+  });
+});
+
+```
+il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
+
+
+
+---
 
 # Cookie
+
 All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
 
 ![bg right 50% height: 400px](screeniphone/hometelefono.png)
@@ -145,41 +178,10 @@ Questo codice crea un carousel di immagini che scorre automaticamente ogni secon
 
 ---
 
-# Barra di ricerca
-
-la barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
-
-![bg right 50% height: 400px](screeniphone/barradiricerca.png)
-
-
----
-
- ![bg right 50% height: 400px](screeniphone/barradiricerca2.png)
-
----
-
-```js
-$(document).ready(function() {
-  $('#search-form').on('submit', function(event) {
-    event.preventDefault();
-
-    var searchTerm = $('#search-input').val();
-
-    // Esegui la ricerca e visualizza i risultati
-    searchProducts(searchTerm);
-  });
-});
-
-```
-il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
-
-
-
----
 
 # CHI SIAMO
 
-nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce
+nella pagina del chi siamo ho inserito una descrizione del brand e una presentazione di quello che i clienti vedranno nell' e-commerce.
 
 ![bg right 50% height: 400px](screeniphone/chisiamotelefono.png)
 
@@ -227,7 +229,7 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
       colorSelect.addEventListener('change', changeBagImage);
 ```
 
-la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondentemente. L'aggiunta dell'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
+la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondente. L'aggiunta dell'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
 
 
 
@@ -244,7 +246,7 @@ all'interno della pagina dei prodotti, ho inserito tre tipologie di scarpe diver
 
 # Pagina dettaglio prodotto
 
-in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
+In questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da una descrizione più approfondita e una possibilità di cambio taglia.
 
 ![bg right 50% height: 400px](screeniphonedescrizionescarpetelefono.png)
 
@@ -283,7 +285,7 @@ function cambiaTaglia() {
 }
 ```
 
- la funzione visualizzaTaglie() consente di mostrare o nascondere le taglie disponibili e gestisce gli stili degli elementi correlati (come le frecce di navigazione) di conseguenza. La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di input di selezione della taglia in base all'opzione selezionata dall'utente.
+La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di input di selezione della taglia in base all'opzione selezionata dall'utente.
 
 
 
@@ -291,7 +293,7 @@ function cambiaTaglia() {
 
 # CARRELLO
 
-Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo totale. Ho aggiunto inoltre la possibilità di rimuovere il prodtto dalla lista.
+Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. Grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo complessivo. Ho aggiunto inoltre la possibilità di rimuovere il prodotto dalla lista.
 
 ![bg right 50% height: 400px](screeniphone/carrelloetelefono.png)
 
@@ -333,8 +335,7 @@ La funzione calcolaTotale() calcola il totale dei prodotti moltiplicando la quan
         });
 ```
 
- questa funzione gestisce l'evento di click su un elemento con la classe "rimuovi-prodotto" e rimuove la riga del prodotto corrispondente dalla tabella del carrello. Successivamente, viene chiamata la funzione calcolaTotale() per aggiornare il totale dei prodotti nel carrello dopo la rimozione.
-
+ Questa funzione gestisce l'evento di click su un elemento con la classe "rimuovi-prodotto" e rimuove la riga del prodotto corrispondente dalla tabella del carrello. Poi, viene chiamata la funzione calcolaTotale() per aggiornare il totale dei prodotti nel carrello dopo la rimozione.
 
 
 
@@ -351,7 +352,7 @@ Nella pagina dei contatti ho inserito le informazioni per contattare il negozio:
 
 # Modulo invio domanda
 
-all'interno della pagina contatti ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
+All'interno della pagina "contatti" ho anche inserito un modulo che permette all'utente di scrivere un messaggio per chiedere ulteriori informazioni.
 
 
 ![bg right 50% height: 400px](screeniphone/boxdomandatelefono.png)
@@ -382,7 +383,7 @@ Questa funzione gestisce l'invio di un messaggio da un modulo, ma solo se l'uten
 
 # Privacy
 
-Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegatmento alla pgina dedicata alinformativa sulla privacy.
+Ho inserito inoltre il consenso per la privacy da accettare prima di inviare il messaggio con collegamento alla pagina dedicata alinformativa sulla privacy.
 
 ![bg right 50% height: 400px](screeniphone/grazietelefono.png)
 
@@ -402,7 +403,7 @@ function accettaInformativa() {
 }
 ```
 
-questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso (che potrebbe essere un messaggio di conferma o ringraziamento). Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
+Questa funzione viene chiamata quando l'utente spunta o deseleziona la casella di controllo per accettare l'informativa sulla privacy. Se la casella è spuntata, mostra il messaggio o l'avviso. Se la casella non è spuntata, nasconde il messaggio. La funzione gestisce quindi la visualizzazione del messaggio in base allo stato della casella di controllo.
 
 ---
 
