@@ -77,7 +77,7 @@ function visualizzaTaglie() {
     tagliedown.style.display = "block";
   }
 }
-function cambiaTaglia() {
+function cambiaTaglia(click) {
   var taglia = document.getElementById("taglia");
   taglia.value = event.target.innerHTML;
 }

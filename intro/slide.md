@@ -224,9 +224,6 @@ in questa pagina l'utente potrà visualizzare il prodotto scelto accompagnati da
         if (selectedColor === 'rosso') {
           bagImage.src = 'immagini/borsarossa-min-min.jpg';
       ...
-      }
-      var colorSelect = document.getElementById('color');
-      colorSelect.addEventListener('change', changeBagImage);
 ```
 la funzione "changeBagImage" viene eseguita quando l'utente cambia l'opzione nel menu a discesa "color". Essa ottiene il colore selezionato e cambia l'immagine della borsa corrispondente. L'evento "change" al menu a discesa assicura che la funzione venga chiamata ogni volta che l'utente seleziona un colore differente.
 
@@ -278,7 +275,7 @@ function visualizzaTaglie() {
 # Cambia taglia 
 
 ```js
-function cambiaTaglia() {
+function cambiaTaglia(click) {
   var taglia = document.getElementById("taglia");
   taglia.value = event.target.innerHTML;
 }
