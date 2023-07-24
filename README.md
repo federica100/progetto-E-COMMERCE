@@ -39,3 +39,10 @@ Questo progetto è un e-commerce che offre una vasta gamma di accessori, focaliz
 
 5. **Pagina Contatti**: Per qualsiasi domanda o informazione, visitare la pagina contatti e utilizzare il modulo per inviare un messaggio direttamente al nostro team di supporto.
 
+
+
+1. **A.A. 2022/20223**
+2. **Federica Ferrenti**
+3. **806**
+4. **Matteo Baccan - Web Design 2**
+5. **Creazione di un e-commerce di Borse&Scarpe**
