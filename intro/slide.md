@@ -70,7 +70,7 @@ Descrizione della borsa di media grandezza con più reparti interni, catena dora
 
 # Boostrap
 
-Bootstrap è una raccolta di strumenti liberi per lacreazione di siti e applicazioni per il Web. Contiene modelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
+Bootstrap è una raccolta di strumenti liberi per la creazione di siti e applicazioni per il Web. Contiene modelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
 
 
 
