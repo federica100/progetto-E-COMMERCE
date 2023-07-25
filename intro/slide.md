@@ -158,7 +158,7 @@ il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di
 
 All'interno dello home ho inserito un carosello che mostra le due principali categorie di prodotti che il mio e-commerce vende: borse e scarpe.
 
-![bg right 50% height: 400px](screeniphone/homeschermata.png)
+![bg right 50% height: 400px](screeniphone/home.png)
 
 ---
 
