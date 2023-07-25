@@ -34,7 +34,7 @@ A.A 2022/2023 - ACME NOVARA
 ---
 # STRUMENTI
 
-I file per la programmazione del sito sono stati sono Html, CSS e Script.
+I linguaggi utilizzati per la programmazione del sito sono stati sono Html, CSS e JavaScript.
 
 Ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
 
