@@ -38,11 +38,6 @@ I file per la programmazione del sito sono stati sono HTML, CSS e Javascript.
 
 Ho lavorato su Visual studio code e github, successivamente ho pubblicato il repository su netlify a questo indirizzo https://ferrentiprogettoe-commerce.netlify.app/
 
----
-# SUPPORTI
-
-I supporti utlizzati per il completamento del sito sono: Visual Studio Code, Github e Netlify.
-
 
 ---
 #  Visual Studio Code
@@ -68,7 +63,7 @@ Descrizione della borsa di media grandezza con più reparti interni, catena dora
 
 ---
 
-# Boostrap
+# Bootstrap
 
 Bootstrap è una raccolta di strumenti liberi per la creazione di siti e applicazioni per il Web. Contiene modelli di progettazione basati su HTML e CSS, eper le varie componenti dell'interfaccia, comemoduli, pulsanti e navigazione.
 
