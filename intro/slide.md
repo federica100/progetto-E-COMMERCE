@@ -106,6 +106,14 @@ Nella parte sottostante ho inserito una barra di ricerca che indirizza direttame
 
 
 ---
+
+# Cookie
+
+All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
+
+![bg right 50% height: 400px](screeniphone/hometelefono.png)
+
+---
 # Barra di ricerca
 
 La barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
@@ -134,15 +142,6 @@ $(document).ready(function() {
 ```
 il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
 
-
-
----
-
-# Cookie
-
-All'interno dello home ho inserito un pop up con cookie che indirizza alla pagina della privacy.
-
-![bg right 50% height: 400px](screeniphone/hometelefono.png)
 
 ---
 
@@ -279,6 +278,9 @@ function cambiaTaglia(click) {
 La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di input di selezione della taglia in base all'opzione selezionata dall'utente.
 
 
+---
+
+![bg right 50% height: 400px](screeniphone/tagliascarpetelefono.png)
 
 ---
 
@@ -286,7 +288,7 @@ La funzione cambiaTaglia() viene utilizzata per impostare il valore del campo di
 
 Nella pagina del carrello ho inserito tre prodotti di esempio con il relativo prezzo. Grazie all'utlizzo di jquery verrà effettuato il calcolo totale automatico del prezzo complessivo. Ho aggiunto inoltre la possibilità di rimuovere il prodotto dalla lista.
 
-![bg right 50% height: 400px](screeniphone/carrelloetelefono.png)
+![bg right 50% height: 400px](screeniphone/carrellotelefono.png)
 
 
 ---
