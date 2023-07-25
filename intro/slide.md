@@ -29,7 +29,7 @@ A.A 2022/2023 - ACME NOVARA
 
  Durante il corso di Web Design 2 ho creato un e-commerce con più pagine ed elementi interattivi.
 
-Il nome del sito web è BE FASHION, un e-commerce ACCESSORI (Borse&scarpe)
+ Il nome del sito web è BE FASHION, un e-commerce ACCESSORI (Borse&scarpe)
 
 ---
 # STRUMENTI
