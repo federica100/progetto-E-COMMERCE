@@ -114,6 +114,16 @@ All'interno dello home ho inserito un pop up con cookie che indirizza alla pagin
 ![bg right 50% height: 400px](screeniphone/hometelefono.png)
 
 ---
+
+```js
+function accettaCookie() {
+  document.getElementById("cookie-popup").style.display = "none";
+}
+```
+Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
+
+---
+
 # Barra di ricerca
 
 La barra di ricerca inserita effettua una ricerca e genera un link collegato alla pagina delle scarpe o delle borse a seconda del contenuto digitato.
@@ -141,16 +151,6 @@ $(document).ready(function() {
 
 ```
 il codice utilizza jQuery per catturare l'evento di sottoposizione del modulo di ricerca, impedisce il ricaricamento della pagina, ottiene il termine di ricerca inserito dall'utente e lo passa a una funzione chiamata searchProducts() per eseguire la ricerca e visualizzare i risultati.
-
-
----
-
-```js
-function accettaCookie() {
-  document.getElementById("cookie-popup").style.display = "none";
-}
-```
-Quando l'utente clicca sul pulsante "Accetta", questa funzione viene chiamata. La sua unica istruzione è quella di nascondere il div dell'avviso dei cookie impostando la proprietà display su "none". In altre parole, l'avviso scompare dalla vista dell'utente quando il pulsante "Accetta" viene cliccato.
 
 ---
 
